@@ -1,86 +1,82 @@
-import React from 'react';
+import React from "react"
 
-import Layout from '../components/Layout';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
-import SideFooter from '../components/SideFooter';
+import Layout from "../components/Layout"
+import Footer from "../components/Footer"
+import Header from "../components/Header"
+import SideFooter from "../components/SideFooter"
 
-import heroImage from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import Gallery from '../components/Gallery';
-import ContactForm from '../components/ContactForm';
-import { Link } from 'gatsby';
+import heroImage from "../assets/images/pic01.jpg"
+import pic2 from "../assets/images/pic02.jpg"
+import Gallery from "../components/Gallery"
+import ContactForm from "../components/ContactForm"
+import { Link } from "gatsby"
 
 const img_set_1 = [
   {
-    src: require('../assets/images/gallery/fulls/01.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/01.jpg'),
-    title: 'Great Sky',
-    desc: 'Be one with the Universe',
+    src: require("../assets/images/gallery/fulls/01.jpg"),
+    // thumbnail: require('../assets/images/gallery/thumbs/01.jpg'),
+    url: "https://mrnewid.ir",
+    title: "MrNewId",
+    desc: "My blog about Blockchain",
     full: true,
   },
   {
-    src: require('../assets/images/gallery/fulls/02.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/02.jpg'),
-    title: 'High Mountains',
-    desc: 'Be one with the mountains',
+    src: require("../assets/images/gallery/fulls/02.jpg"),
+    // thumbnail: require('../assets/images/gallery/thumbs/02.jpg'),
+    url: "http://www.bitseen.com",
+    title: "BitSeen",
+    desc: "Be one with the mountains",
   },
   {
-    src: require('../assets/images/gallery/fulls/03.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/03.jpg'),
-    title: 'Any time ',
-    desc: 'Be one with the time',
+    src: require("../assets/images/gallery/fulls/03.jpg"),
+    // thumbnail: require('../assets/images/gallery/thumbs/03.jpg'),
+    url: "https://www.nardun.ir",
+    title: "Nardun",
+    desc: "Be one with the time",
   },
-  {
-    src: require('../assets/images/gallery/fulls/04.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/04.jpg'),
-    title: 'Any source of light',
-    desc: 'Be one with the light',
-    full: true,
-  },
-];
+]
 const img_set_2 = [
   {
-    src: require('../assets/images/gallery/fulls/05.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/05.jpg'),
-    title: 'Any Curiosity',
-    desc: 'Be one with the curiosity',
+    src: require("../assets/images/gallery/fulls/05.jpg"),
+    thumbnail: require("../assets/images/gallery/thumbs/05.jpg"),
+    title: "Any Curiosity",
+    desc: "Be one with the curiosity",
     full: true,
   },
   {
-    src: require('../assets/images/gallery/fulls/06.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/06.jpg'),
-    title: 'Any source of enlightenment',
-    desc: 'Be one with the soul',
+    src: require("../assets/images/gallery/fulls/06.jpg"),
+    thumbnail: require("../assets/images/gallery/thumbs/06.jpg"),
+    title: "Any source of enlightenment",
+    desc: "Be one with the soul",
   },
   {
-    src: require('../assets/images/gallery/fulls/07.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/07.jpg'),
-    title: 'Be in present',
-    desc: 'Be one with the present',
+    src: require("../assets/images/gallery/fulls/07.jpg"),
+    thumbnail: require("../assets/images/gallery/thumbs/07.jpg"),
+    title: "Be in present",
+    desc: "Be one with the present",
   },
-];
+]
 const img_set_3 = [
   {
-    src: require('../assets/images/gallery/fulls/08.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/08.jpg'),
-    title: 'Give away',
-    desc: 'Be one with the empathy',
+    src: require("../assets/images/gallery/fulls/08.jpg"),
+    thumbnail: require("../assets/images/gallery/thumbs/08.jpg"),
+    title: "Give away",
+    desc: "Be one with the empathy",
   },
   {
-    src: require('../assets/images/gallery/fulls/09.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/09.jpg'),
-    title: 'Moment',
-    desc: 'Be one with the moment',
+    src: require("../assets/images/gallery/fulls/09.jpg"),
+    thumbnail: require("../assets/images/gallery/thumbs/09.jpg"),
+    title: "Moment",
+    desc: "Be one with the moment",
   },
   {
-    src: require('../assets/images/gallery/fulls/10.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/10.jpg'),
-    title: 'Serenity',
-    desc: 'Be one with the purity',
+    src: require("../assets/images/gallery/fulls/10.jpg"),
+    thumbnail: require("../assets/images/gallery/thumbs/10.jpg"),
+    title: "Serenity",
+    desc: "Be one with the purity",
     full: true,
   },
-];
+]
 const IndexPage = () => (
   <Layout>
     <div id="wrapper">
@@ -95,17 +91,36 @@ const IndexPage = () => (
 
       <section id="first">
         <header>
-          <h2>Magna sed nullam nisl adipiscing</h2>
+          <h2>Cover Letter</h2>
         </header>
         <div className="content">
           <p>
-            <strong>Lorem ipsum dolor</strong> sit amet consectetur adipiscing
-            elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad
-            litora torquent per conubia nostra, per inceptos himenaeos. Etiam
-            tristique libero eu nibh porttitor amet fermentum. Nullam venenatis
-            erat id vehicula ultrices sed ultricies condimentum. Magna sed etiam
-            consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et
-            dolor libero, feugiat magna tempus, sed et lorem adipiscing.
+            I have many years of experience as a founder or employee of various
+            startups. To answer the needs of different startups I had to learn
+            various types of programming skills. for example, I learned Android
+            programming for Ninisu, Reactjs for Dehgardi, and Solidity for
+            Bloock.
+            <br />
+            Although in recent years I have focused on working on Reactjs, the
+            environment I described above has enabled me to learn different
+            languages and frameworks quickly.
+            <br />
+            The most important meaning of my life in recent years has been
+            contributing to open source culture specially Blockchain and
+            decentralization. That's why I've written a variety of articles and
+            held some educational events in this area and tried to run startups
+            based on Ethereum, Steem, Blockstack in Iran. But I had to abandon
+            all of these projects due to deterrent laws in Iran and investors'
+            hesitation to invest in blockchain-based startups.
+            <br />
+            Nowadays, this fact is clear to me, if I want to contribute to this
+            movement I should have left my country to work in companies
+            operating in blockchain field.
+            <br />
+            I can make you sure, if I get the opportunity to work in such a
+            company, I will greatly appreciate this opportunity.
+            <br />
+            Navid Goalpure
           </p>
           <span className="image main">
             <img src={pic2} alt="" />
@@ -141,7 +156,7 @@ const IndexPage = () => (
 
       <section>
         <header>
-          <h2>Ultrices erat magna sed condimentum</h2>
+          <h2>My Live Sites</h2>
         </header>
         <div className="content">
           <p>
@@ -232,6 +247,6 @@ const IndexPage = () => (
       <Footer />
     </div>
   </Layout>
-);
+)
 
-export default IndexPage;
+export default IndexPage

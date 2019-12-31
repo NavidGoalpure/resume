@@ -1,34 +1,34 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Paradigmshift', // <title>
-  manifestName: 'paradigmshift',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'Navid Goalpure Resume', // <title>
+  manifestName: 'Navid Resume',
+  manifestShortName: 'Resume', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-paradigmshift/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  pathPrefix: `/Resume/`, // This path is subpath of your hosting https://domain/portfolio
+  heading: 'Navid Goalpure',
+  subHeading: 'Seniur Front-end Web Developer. Part time Blockchain evangelist  ',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/navidgoalpure',
     },
     {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      icon: 'fa-telegram',
+      name: 'Telegram',
+      url: 'https://T.me/GreateStallman',
     },
     {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      icon: 'fa-rss',
+      name: 'Virgool',
+      url: 'https://virgool.io/@navid.goalpure',
     },
   ],
-  emailId: 'anubhav.srivastava00@gmail.com',
-  phone: '020182389123',
-  address: '11 Ashiyana, Mumbai, India',
+  emailId: 'navid.goalpure@gmail.com',
+  phone: '+98-911-8686-115',
+  address: 'Gorgan, Golestan, Iran',
 };

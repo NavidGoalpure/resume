@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import { StaticQuery, graphql } from 'gatsby';
+import {StaticQuery, graphql} from 'gatsby';
 
 import '../assets/sass/main.scss';
 
@@ -15,7 +15,7 @@ class Layout extends Component {
 
   componentDidMount() {
     this.timeoutId = setTimeout(() => {
-      this.setState({ isPreloaded: false });
+      this.setState({isPreloaded: false});
     }, 100);
   }
 
@@ -26,8 +26,8 @@ class Layout extends Component {
   }
 
   render() {
-    const { children } = this.props;
-    const { isPreloaded } = this.state;
+    const {children} = this.props;
+    const {isPreloaded} = this.state;
     return (
       <StaticQuery
         query={graphql`
@@ -40,12 +40,12 @@ class Layout extends Component {
           }
         `}
         render={data => (
-          <>
+          <div>
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Paradigm Shift' },
-                { name: 'keywords', content: 'site, web' },
+                {name: 'description', content: 'Paradigm Shift'},
+                {name: 'keywords', content: 'site, web'},
               ]}
             >
               <html lang="en" />
@@ -53,7 +53,7 @@ class Layout extends Component {
             <div className={isPreloaded ? 'main-body is-preload' : 'main-body'}>
               {children}
             </div>
-          </>
+          </div>
         )}
       />
     );

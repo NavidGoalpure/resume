@@ -1,0 +1,22 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["prettier", "@typescript-eslint"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:import/warnings",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "@typescript-eslint/indent": 0,
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/no-unused-vars": 2,
+    "@typescript-eslint/no-non-null-assertion": 1
+  }
+}
+

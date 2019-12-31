@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import Lightbox from 'react-images';
 
 class Gallery extends Component {
@@ -52,7 +52,7 @@ class Gallery extends Component {
     this.gotoNext();
   }
   renderGallery() {
-    const { images } = this.props;
+    const {images} = this.props;
 
     if (!images) return;
 
@@ -64,7 +64,7 @@ class Gallery extends Component {
           onClick={e => this.openLightbox(i, e)}
           className={`${obj.full ? 'landscape' : ''}`}
         >
-          <img src={obj.thumbnail} alt="" />
+          <img src={obj.src} alt="" />
         </a>
       );
     });

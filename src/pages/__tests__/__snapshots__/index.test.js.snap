@@ -1,0 +1,500 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index renders correctly 1`] = `
+<div>
+  <div
+    className="main-body is-preload"
+  >
+    <div
+      id="wrapper"
+    >
+      <section
+        className="intro"
+      >
+        <header>
+          <h1>
+            Navid Goalpure
+          </h1>
+          <p>
+            Seniur Front-end Web Developer. Part time Blockchain evangelist  
+          </p>
+          <ul
+            className="actions"
+          >
+            <li>
+              <a
+                className="arrow"
+                href="#first"
+                onClick={[Function]}
+              >
+                <span
+                  className="label"
+                >
+                  Next
+                </span>
+              </a>
+            </li>
+          </ul>
+        </header>
+        <div
+          className="content"
+        >
+          <span
+            className="image fill"
+            data-position="center"
+          >
+            <img
+              alt=""
+              src="test-file-stub"
+            />
+          </span>
+        </div>
+      </section>
+      <section
+        id="first"
+      >
+        <header>
+          <h2>
+            Cover Letter
+          </h2>
+        </header>
+        <div
+          className="content"
+        >
+          <p>
+            I have many years of experience as a founder or employee of various startups. To answer the needs of different startups I had to learn various types of programming skills. for example, I learned Android programming for Ninisu, Reactjs for Dehgardi, and Solidity for Bloock.
+            <br />
+            Although in recent years I have focused on working on Reactjs, the environment I described above has enabled me to learn different languages and frameworks quickly.
+            <br />
+            The most important meaning of my life in recent years has been contributing to open source culture specially Blockchain and decentralization. That's why I've written a variety of articles and held some educational events in this area and tried to run startups based on Ethereum, Steem, Blockstack in Iran. But I had to abandon all of these projects due to deterrent laws in Iran and investors' hesitation to invest in blockchain-based startups.
+            <br />
+            Nowadays, this fact is clear to me, if I want to contribute to this movement I should have left my country to work in companies operating in blockchain field.
+            <br />
+            I can make you sure, if I get the opportunity to work in such a company, I will greatly appreciate this opportunity.
+            <br />
+            Navid Goalpure
+          </p>
+          <span
+            className="image main"
+          >
+            <img
+              alt=""
+              src="test-file-stub"
+            />
+          </span>
+        </div>
+      </section>
+      <section>
+        <header>
+          <h2>
+            Feugiat consequat tempus ultrices
+          </h2>
+        </header>
+        <div
+          className="content"
+        >
+          <p>
+            <strong>
+              Etiam tristique libero
+            </strong>
+             eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum.
+          </p>
+          <ul
+            className="feature-icons"
+          >
+            <li
+              className="icon fa-laptop"
+            >
+              Consequat tempus
+            </li>
+            <li
+              className="icon fa-bolt"
+            >
+              Etiam adipiscing
+            </li>
+            <li
+              className="icon fa-signal"
+            >
+              Libero nullam
+            </li>
+            <li
+              className="icon fa-gear"
+            >
+              Blandit condimentum
+            </li>
+            <li
+              className="icon fa-map-marker"
+            >
+              Lorem ipsum dolor
+            </li>
+            <li
+              className="icon fa-code"
+            >
+              Nibh amet venenatis
+            </li>
+          </ul>
+          <p>
+            Vehicula ultrices sed ultricies condimentum. Magna sed etiam consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et dolor libero, feugiat magna tempus, sed et lorem adipiscing.
+          </p>
+        </div>
+      </section>
+      <section>
+        <header>
+          <h2>
+            My Live Sites
+          </h2>
+        </header>
+        <div
+          className="content"
+        >
+          <p>
+            <strong>
+              Integer mollis egestas
+            </strong>
+             nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.
+          </p>
+          <section>
+            <header>
+              <h3>
+                Erat aliquam
+              </h3>
+              <p>
+                Vehicula ultrices dolor amet ultricies et condimentum. Magna sed etiam consequat, et lorem adipiscing sed dolor sit amet, consectetur amet do eiusmod tempor incididunt ipsum suspendisse ultrices gravida.
+              </p>
+            </header>
+            <div
+              className="content"
+            >
+              <div
+                className="gallery"
+              >
+                 
+                <a
+                  className="landscape"
+                  href="test-file-stub"
+                  onClick={[Function]}
+                >
+                  <img
+                    alt=""
+                    src="test-file-stub"
+                  />
+                </a>
+                <a
+                  className=""
+                  href="test-file-stub"
+                  onClick={[Function]}
+                >
+                  <img
+                    alt=""
+                    src="test-file-stub"
+                  />
+                </a>
+                <a
+                  className=""
+                  href="test-file-stub"
+                  onClick={[Function]}
+                >
+                  <img
+                    alt=""
+                    src="test-file-stub"
+                  />
+                </a>
+                 
+              </div>
+            </div>
+          </section>
+          <section>
+            <header>
+              <h3>
+                Nisl consequat
+              </h3>
+              <p>
+                Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam sed facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet mauris. Ut magna finibus nisi nec lacinia ipsum maximus.
+              </p>
+            </header>
+            <div
+              className="content"
+            >
+              <div
+                className="gallery"
+              >
+                <div
+                  className="gallery"
+                >
+                   
+                  <a
+                    className="landscape"
+                    href="test-file-stub"
+                    onClick={[Function]}
+                  >
+                    <img
+                      alt=""
+                      src="test-file-stub"
+                    />
+                  </a>
+                  <a
+                    className=""
+                    href="test-file-stub"
+                    onClick={[Function]}
+                  >
+                    <img
+                      alt=""
+                      src="test-file-stub"
+                    />
+                  </a>
+                  <a
+                    className=""
+                    href="test-file-stub"
+                    onClick={[Function]}
+                  >
+                    <img
+                      alt=""
+                      src="test-file-stub"
+                    />
+                  </a>
+                   
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <header>
+              <h3>
+                Lorem gravida
+              </h3>
+              <p>
+                Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aenean ornare velit lacus, ac varius sed enim lorem ullamcorper dolore. ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis.
+              </p>
+            </header>
+            <div
+              className="content"
+            >
+              <div
+                className="gallery"
+              >
+                <div
+                  className="gallery"
+                >
+                   
+                  <a
+                    className=""
+                    href="test-file-stub"
+                    onClick={[Function]}
+                  >
+                    <img
+                      alt=""
+                      src="test-file-stub"
+                    />
+                  </a>
+                  <a
+                    className=""
+                    href="test-file-stub"
+                    onClick={[Function]}
+                  >
+                    <img
+                      alt=""
+                      src="test-file-stub"
+                    />
+                  </a>
+                  <a
+                    className="landscape"
+                    href="test-file-stub"
+                    onClick={[Function]}
+                  >
+                    <img
+                      alt=""
+                      src="test-file-stub"
+                    />
+                  </a>
+                   
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+      <section>
+        <header>
+          <h2>
+            Duis sed adpiscing veroeros amet
+          </h2>
+        </header>
+        <div
+          className="content"
+        >
+          <p>
+            <strong>
+              Elements
+            </strong>
+             This starter contains all elements for a page. Check it out
+          </p>
+          <ul
+            className="actions"
+          >
+            <li>
+              <a
+                className="button primary large"
+                href="/Elements"
+              >
+                Goto Elements Page
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <header>
+          <h2>
+            Get in touch
+          </h2>
+        </header>
+        <div
+          className="content"
+        >
+          <p>
+            <strong>
+              Auctor commodo
+            </strong>
+             interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis.
+          </p>
+          <form>
+            <div
+              className="fields"
+            >
+              <div
+                className="field half"
+              >
+                <input
+                  id="name"
+                  name="name"
+                  placeholder="Name"
+                  type="text"
+                />
+              </div>
+              <div
+                className="field half"
+              >
+                <input
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                  type="email"
+                />
+              </div>
+              <div
+                className="field"
+              >
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Message"
+                  rows="7"
+                />
+              </div>
+            </div>
+            <ul
+              className="actions"
+            >
+              <li>
+                <input
+                  className="button primary"
+                  type="submit"
+                  value="Send Message"
+                />
+              </li>
+            </ul>
+          </form>
+        </div>
+        <footer>
+          <ul
+            className="items"
+          >
+            <li>
+              <h3>
+                Email
+              </h3>
+              <a
+                href="mailto:navid.goalpure@gmail.com"
+              >
+                navid.goalpure@gmail.com
+              </a>
+            </li>
+            <li>
+              <h3>
+                Phone
+              </h3>
+              <span>
+                +98-911-8686-115
+              </span>
+            </li>
+            <li>
+              <h3>
+                Address
+              </h3>
+              <span>
+                Gorgan, Golestan, Iran
+              </span>
+            </li>
+            <li>
+              <h3>
+                Elsewhere
+              </h3>
+              <ul
+                className="icons"
+              >
+                <li>
+                  <a
+                    className="icon fa-github"
+                    href="https://github.com/navidgoalpure"
+                  >
+                    <span
+                      className="label"
+                    >
+                      Github
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="icon fa-telegram"
+                    href="https://T.me/GreateStallman"
+                  >
+                    <span
+                      className="label"
+                    >
+                      Telegram
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="icon fa-rss"
+                    href="https://virgool.io/@navid.goalpure"
+                  >
+                    <span
+                      className="label"
+                    >
+                      Virgool
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </footer>
+      </section>
+      <div
+        className="copyright"
+      >
+        © Paradigm Shift. All rights reserved. Design:
+        <a
+          href="https://html5up.net"
+        >
+          HTML5 UP
+        </a>
+        .
+      </div>
+    </div>
+  </div>
+</div>
+`;
