@@ -1,11 +1,12 @@
 import React from "react"
-import { ContextProvider } from "./Context"
-
-import Photos from "./Photos"
+import {ContextProvider} from "./Context"
+import Cart from "./Cart"
+import Photos from  "./Photos"
 
 const ShowImages = () => (
   <ContextProvider>
-    <Photos />
+  < Photos />
+  <Cart />
   </ContextProvider>
 )
 

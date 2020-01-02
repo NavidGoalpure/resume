@@ -1,7 +1,6 @@
 import React, {useState, useContext} from "react"
-import PropTypes from "prop-types"
-import {Context} from "../Context"
-import useHover from "../hooks/useHover"
+import {Context} from "./Context"
+import useHover from "./hooks/useHover"
 
 function CartItem({item}) {
   const [hovered, ref] = useHover()
@@ -24,10 +23,5 @@ function CartItem({item}) {
   )
 }
 
-CartItem.propTypes = {
-  item: PropTypes.shape({
-    url: PropTypes.string.isRequired
-  })
-}
 
 export default CartItem
