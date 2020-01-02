@@ -9,7 +9,7 @@ import heroImage from "../assets/images/pic01.jpg"
 import pic2 from "../assets/images/pic02.jpg"
 import Gallery from "../components/Gallery"
 import ContactForm from "../components/ContactForm"
-import { Link } from "gatsby"
+import {Link} from "gatsby"
 
 const img_set_1 = [
   {
@@ -226,8 +226,8 @@ const IndexPage = () => (
           </p>
           <ul className="actions">
             <li>
-              <Link to="/Elements" className="button primary large">
-                Goto Elements Page
+              <Link to="/SkillsTour" className="button primary large">
+                Goto Skill Tour
               </Link>
             </li>
             {/* <li>
