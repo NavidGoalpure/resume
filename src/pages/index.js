@@ -139,7 +139,7 @@ const IndexPage = () => (
             condimentum.
           </p>
           <ul className="feature-icons">
-            <li className="icon fa-laptop">Consequat tempus</li>
+            <li class="icon fa-star">felan bamedan</li>
             <li className="icon fa-bolt">Etiam adipiscing</li>
             <li className="icon fa-signal">Libero nullam</li>
             <li className="icon fa-gear">Blandit condimentum</li>
@@ -226,11 +226,11 @@ const IndexPage = () => (
           </p>
           <ul data-test="skills-tour-button" className="actions">
             <li>
-            <Link to="/SkillsTour" className="button primary large">
-              Goto Skill Tour
+              <Link to="/SkillsTour" className="button primary large">
+                Goto Skill Tour
               </Link>
-          </li>
-          {/* <li>
+            </li>
+            {/* <li>
               <a href="/#" className="button large">
                 Learn More
               </a>
@@ -239,12 +239,12 @@ const IndexPage = () => (
         </div>
       </section>
 
-    <section>
-      <ContactForm />
-      <SideFooter />
-    </section>
+      <section>
+        <ContactForm />
+        <SideFooter />
+      </section>
 
-    <Footer />
+      <Footer />
     </div>
   </Layout >
 )

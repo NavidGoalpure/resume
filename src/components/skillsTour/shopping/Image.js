@@ -1,19 +1,20 @@
-import React, {useContext} from "react"
+import React, { useContext } from "react"
 
-import {Context} from "./Context"
+import { Context } from "./Context"
 import useHover from "./hooks/useHover"
 import styled from "styled-components"
 
 const IconContainer = styled.div`
   position: absolute;
-  background-color: darkseagreen;
+  background-color: #49fcd4;
   bottom: 0;
   width: 100%;
+  opacity: 0.8;
   height: 2rem;
 `
-function Image({className, img}) {
+function Image({ className, img }) {
   const [hovered, ref] = useHover()
-  const {toggleFavorite, addToCart, cartItems, removeFromCart} = useContext(
+  const { toggleFavorite, addToCart, cartItems, removeFromCart } = useContext(
     Context
   )
 
@@ -21,14 +22,14 @@ function Image({className, img}) {
     if (img.isFavorite) {
       return (
         <i
-          className="ri-heart-fill favorite"
+          className="fa fa-heart favorite"
           onClick={() => toggleFavorite(img.id)}
         ></i>
       )
     } else {
       return (
         <i
-          className="ri-heart-line favorite"
+          className="fa fa-heart-o favorite"
           onClick={() => toggleFavorite(img.id)}
         ></i>
       )
@@ -40,16 +41,13 @@ function Image({className, img}) {
     if (alreadyInCart) {
       return (
         <i
-          className="ri-shopping-cart-fill cart"
+          className="fa fa-shopping-cart cart"
           onClick={() => removeFromCart(img.id)}
         ></i>
       )
     } else {
       return (
-        <i
-          className="ri-add-circle-line cart"
-          onClick={() => addToCart(img)}
-        ></i>
+        <i className="fa fa-cart-plus cart" onClick={() => addToCart(img)}></i>
       )
     }
   }
@@ -65,7 +63,6 @@ function Image({className, img}) {
           {heartIcon()}
           {cartIcon()}
         </IconContainer>
-
       )}
     </div>
   )
