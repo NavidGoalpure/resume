@@ -9,19 +9,17 @@ function CartItem({item}) {
   const iconClassName = hovered ? "ri-delete-bin-fill" : "ri-delete-bin-line"
 
   return (
-    <div className="cart-item">
-      <i
-        className={iconClassName}
-        onClick={() => removeFromCart(item.id)}
-        ref={ref}
-      >
-      </i>
-
-      <img src={item.url} width="130px" />
-      <p>$5.99</p>
-    </div>
+    <tr>
+      <td onClick={() => removeFromCart(item.id)} ref={ref}>
+        <i className={iconClassName} />
+        {/* <p>Remove</p> */}
+      </td>
+      <td>
+        <img src={item.url} width="130px" />
+      </td>
+      <td>$5.99</td>
+    </tr>
   )
 }
-
 
 export default CartItem

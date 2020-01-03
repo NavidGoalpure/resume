@@ -6,7 +6,10 @@ function Cart() {
   const [buttonText, setButtonText] = useState("Place Order")
   const {cartItems, emptyCart} = useContext(Context)
   const totalCost = 5.99 * cartItems.length
-  const totalCostDisplay = totalCost.toLocaleString("en-US", {style: "currency", currency: "USD"})
+  const totalCostDisplay = totalCost.toLocaleString("en-US", {
+    style: "currency",
+    currency: "USD",
+  })
 
   const cartItemElements = cartItems.map(item => (
     <CartItem key={item.id} item={item} />
@@ -22,19 +25,27 @@ function Cart() {
   }
 
   return (
-    <main className="cart-page">
+    <main className="table-wrapper">
       <h1>Check out</h1>
-      {cartItemElements}
-      <p className="total-cost">Total: {totalCostDisplay}</p>
-      {
-        cartItems.length > 0 ?
-          <div className="order-button">
-            <button onClick={placeOrder}>{buttonText}</button>
-          </div> :
-          <p>You have no items in your cart.</p>
-      }
-    </main>
-  )
+      <table>
+        <thead>
+          <tr>
+            <th>remove</th>
+            <th>Image</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>{cartItemElements}</tbody>
+        <tfoot>
+          <tr>
+            <td colSpan="1"></td>
+            <td  style={{textAlign: "end"}}>Total:</td>
+            <td>{totalCostDisplay}</td>
+          </tr>
+        </tfoot>
+          </table>
+        </main>
+      )
 }
 
 export default Cart
