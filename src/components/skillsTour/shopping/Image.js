@@ -26,6 +26,7 @@ function Image({className, img}) {
 
   return (
     <div
+      data-test="Comp-image"
       className={`${className} image-container`}
       ref={ref}
     >

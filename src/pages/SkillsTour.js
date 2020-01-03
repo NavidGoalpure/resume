@@ -1,6 +1,6 @@
 
 import React from 'react';
-import ShowImages from '../components/skillsTour/ShowImages'
+import ShowImages from '../components/skillsTour/shopping/ShowImages'
 import Layout from '../components/Layout';
 
 const IndexPage = () => (

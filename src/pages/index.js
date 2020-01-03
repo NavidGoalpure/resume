@@ -78,7 +78,7 @@ const img_set_3 = [
   },
 ]
 const IndexPage = () => (
-  <Layout>
+  <Layout data-test="comp-index-page">
     <div id="wrapper">
       <section className="intro">
         <Header />
@@ -224,13 +224,13 @@ const IndexPage = () => (
             <strong>Elements</strong> This starter contains all elements for a
             page. Check it out
           </p>
-          <ul className="actions">
+          <ul data-test="skills-tour-button" className="actions">
             <li>
-              <Link to="/SkillsTour" className="button primary large">
-                Goto Skill Tour
+            <Link to="/SkillsTour" className="button primary large">
+              Goto Skill Tour
               </Link>
-            </li>
-            {/* <li>
+          </li>
+          {/* <li>
               <a href="/#" className="button large">
                 Learn More
               </a>
@@ -239,14 +239,14 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section>
-        <ContactForm />
-        <SideFooter />
-      </section>
+    <section>
+      <ContactForm />
+      <SideFooter />
+    </section>
 
-      <Footer />
+    <Footer />
     </div>
-  </Layout>
+  </Layout >
 )
 
 export default IndexPage
