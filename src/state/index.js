@@ -1,4 +1,4 @@
-import {combineReducers} from 'redux';
-import app from './app';
+import { combineReducers } from "redux"
+import mode from "./mode"
 
-export default combineReducers({app});
+export default combineReducers({ mode })
