@@ -9,6 +9,8 @@
 .table-wrapper {
   -webkit-overflow-scrolling: touch;
   overflow-x: auto;
+  padding: 2rem;
+  flex: 1;
 }
 
 table {

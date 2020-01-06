@@ -1,9 +1,17 @@
-import React, { useContext } from "react"
+import React, {useContext} from "react"
 
-import { Context } from "./Context"
+import {Context} from "./Context"
 import useHover from "./hooks/useHover"
 import styled from "styled-components"
 
+const Img = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  &: hover{
+    object-fit: none;
+  }
+ `
 const IconContainer = styled.div`
   position: absolute;
   background-color: #49fcd4;
@@ -11,10 +19,12 @@ const IconContainer = styled.div`
   width: 100%;
   opacity: 0.8;
   height: 2rem;
-`
-function Image({ className, img }) {
+  transition: transform 300ms ease-in-out;
+  }
+ `
+function Image({className, img}) {
   const [hovered, ref] = useHover()
-  const { toggleFavorite, addToCart, cartItems, removeFromCart } = useContext(
+  const {toggleFavorite, addToCart, cartItems, removeFromCart} = useContext(
     Context
   )
 
@@ -57,7 +67,7 @@ function Image({ className, img }) {
       className={`${className} image-container`}
       ref={ref}
     >
-      <img src={img.url} className="image-grid" />
+      <Img src={img.url} />
       {(hovered || img.isFavorite) && (
         <IconContainer>
           {heartIcon()}

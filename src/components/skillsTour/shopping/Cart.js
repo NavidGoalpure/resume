@@ -26,7 +26,7 @@ function Cart() {
 
   return (
     <main className="table-wrapper">
-      <h1>Check out</h1>
+      <h1 style={{fontSized: '4rem'}} >Check out</h1>
       <table>
         <thead>
           <tr>
@@ -39,13 +39,13 @@ function Cart() {
         <tfoot>
           <tr>
             <td colSpan="1"></td>
-            <td  style={{textAlign: "end"}}>Total:</td>
+            <td style={{textAlign: "end"}}>Total:</td>
             <td>{totalCostDisplay}</td>
           </tr>
         </tfoot>
-          </table>
-        </main>
-      )
+      </table>
+    </main>
+  )
 }
 
 export default Cart
