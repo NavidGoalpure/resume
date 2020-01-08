@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import Footer from "../components/Footer"
 import SideFooter from "../components/SideFooter"
-import {CoverLetter, Hero} from "../components/pages/home"
+import {CoverLetter, Hero, Employment} from "../components/pages/home"
 import Gallery from "../components/Gallery"
 import ContactForm from "../components/ContactForm"
 import {Link} from "gatsby"
@@ -14,6 +14,7 @@ const IndexPage = () => (
     <div id="wrapper">
       <Hero />
       <CoverLetter />
+      <Employment />
       <section>
         <header>
           <h2>Feugiat consequat tempus ultrices</h2>
