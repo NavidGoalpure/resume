@@ -14,7 +14,7 @@ const Img = styled.img`
  `
 const IconContainer = styled.div`
   position: absolute;
-  background-color: #49fcd4;
+  background-color: #76b852;
   bottom: 0;
   width: 100%;
   opacity: 0.8;
