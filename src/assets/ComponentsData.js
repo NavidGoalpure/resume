@@ -37,7 +37,11 @@ export default {
     {
       duration: "2017-2020",
       title: "FRONT-END DEV",
-      companyName: <a href="http://hivaland.com/" target="_blank">Hivaland </a>,
+      companyName: (
+        <a href="http://hivaland.com/" target="_blank">
+          Hivaland{" "}
+        </a>
+      ),
       characters: [
         "bloock.ir : One of the first blockchain startups in Iran to create a platform for renting books on the ethereum blockchain platform",
         "bitseen.com : An exchange for crypto currencies.",
@@ -47,7 +51,12 @@ export default {
     {
       duration: "2016-2017",
       title: "FRONT-END DEV",
-      companyName: <a href="https://sarayar.com/" target="_blank"> Sarayar</a>,
+      companyName: (
+        <a href="https://sarayar.com/" target="_blank">
+          {" "}
+          Sarayar
+        </a>
+      ),
       characters: [
         "One of the well-known real-state renting platforms in the country.",
         "Development & refactoring already established website (sarayar.com).",
@@ -77,96 +86,107 @@ export default {
       ],
     },
   ],
-  skills: [
-    {
-      reactSkill: [
-        {
-          skill: "Functional Component",
-          link:
-            "https://github.com/NavidGoalpure/SteemAceUi/blob/master/src/modules/%E2%80%8C%E2%80%8C%E2%80%8CBottomNavigation.jsx",
-        },
+  skills: {
+    reactSkills: [
+      {
+        skill: "Functional Component",
+        link:
+          "https://github.com/NavidGoalpure/SteemAceUi/blob/master/src/modules/%E2%80%8C%E2%80%8C%E2%80%8CBottomNavigation.jsx",
+        isVersed: true,
+      },
 
-        {
-          skill: "Class Component",
-          link: "",
-        },
-        {
-          skill: "Context",
-          link:
-            "https://github.com/NavidGoalpure/resume/blob/master/src/components/skillsTour/shopping/Context.js",
-        },
-        {
-          skill: "Redux",
-          link:
-            "https://github.com/NavidGoalpure/resume/blob/master/src/state/ReduxWrapper.js",
-        },
-        {
-          skill: "Hook",
-          link:
-            "https://github.com/NavidGoalpure/resume/blob/master/src/components/skillsTour/shopping/hooks/useHover.js",
-        },
-        {
-          skill: "Typescript",
-          link: "",
-        },
-      ],
-    },
-    {
-      css: [
-        {
-          skill: "Styled-Component",
-          link: "",
-        },
-        {
-          skill: "Radium",
-          link: "",
-        },
-        {
-          skill: "Emotion",
-          link: "",
-        },
-        {
-          skill: "Bootstrap",
-          link: "",
-        },
-        {
-          skill: "Tailwind",
-          link: "",
-        },
-        {
-          skill: "MaterialUi",
-          link:
-            "https://github.com/NavidGoalpure/SteemAceUi/blob/master/src/modules/PostCards/PostCard.jsx",
-        },
+      {
+        skill: "Class Component",
+        link: "",
+        isVersed: true,
+      },
+      {
+        skill: "Context",
+        link:
+          "https://github.com/NavidGoalpure/resume/blob/master/src/components/skillsTour/shopping/Context.js",
+        isVersed: true,
+      },
+      {
+        skill: "Redux",
+        link:
+          "https://github.com/NavidGoalpure/resume/blob/master/src/state/ReduxWrapper.js",
+        isVersed: true,
+      },
+      {
+        skill: "Hook",
+        link:
+          "https://github.com/NavidGoalpure/resume/blob/master/src/components/skillsTour/shopping/hooks/useHover.js",
+        isVersed: true,
+      },
+      {
+        skill: "MaterialUi",
+        link:
+          "https://github.com/NavidGoalpure/SteemAceUi/blob/master/src/modules/PostCards/PostCard.jsx",
+        isVersed: true,
+      },
+      {
+        skill: "Typescript",
+        link: "",
+        isVersed: false,
+      },
+    ],
 
-        {
-          skill: "BEM Metodology",
-          link: "",
-        },
-      ],
-    },
-    {
-      other: [
-        {
-          skill: "Restfull-API",
-          link: "",
-        },
-        {
-          skill: "GraphQL",
-          link:
-            "https://github.com/NavidGoalpure/SteemAceUi/blob/master/src/queries/feedsQuery.js",
-        },
-        {
-          skill: "Nodejs",
-          link: "",
-        },
-        {
-          skill: "",
-          link: "",
-        },
-      ],
-    },
-  ],
+    cssSkills: [
+      {
+        skill: "Styled-Component",
+        link:
+          "https://github.com/NavidGoalpure/nardoon/blob/master/src/components/Card.js",
+        isVersed: true,
+      },
+      {
+        skill: "Emotion",
+        link:
+          "https://github.com/NavidGoalpure/futureWizardz/blob/master/src/components/ProjectCard.jsx",
+        isVersed: true,
+      },
+      {
+        skill: "Tailwind",
+        link:
+          "https://github.com/NavidGoalpure/futureWizardz/blob/master/src/components/AboutSub.jsx",
+        isVersed: true,
+      },
+      {
+        skill: "BEM Metodology",
+        link: "",
+        isVersed: true,
+      },
+      {
+        skill: "Bootstrap",
+        link: "",
+        isVersed: false,
+      },
+      {
+        skill: "postcss",
+        link:
+          "https://github.com/NavidGoalpure/mrNewid/blob/master/src/components/Article/Headline.js",
+        isVersed: false,
+      },
+    ],
+
+    other: [
+      {
+        skill: "Restfull-API",
+        link: "",
+        isVersed: true,
+      },
+      {
+        skill: "GraphQL",
+        link:
+          "https://github.com/NavidGoalpure/SteemAceUi/blob/master/src/queries/feedsQuery.js",
+        isVersed: true,
+      },
+      {
+        skill: "Nodejs",
+        link: "",
+        isVersed: false,
+      },
+    ],
+  },
   img_set_1: [
     {
       src: require("./images/gallery/fulls/01.jpg"),
