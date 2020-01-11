@@ -7,7 +7,7 @@ import {CoverLetter, Hero, Employment} from "../components/pages/home"
 import Gallery from "../components/Gallery"
 import ContactForm from "../components/ContactForm"
 import {Link} from "gatsby"
-import config from "../../config"
+import config from "../assets/ComponentsData"
 
 const IndexPage = () => (
   <Layout data-test="comp-index-page">

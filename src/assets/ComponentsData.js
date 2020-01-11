@@ -35,43 +35,45 @@ export default {
   ),
   employment: [
     {
-      duration: "2012-2014",
-      title: "CO-FOUNDER",
-      name: "dbjobs",
+      duration: "2017-2020",
+      title: "FRONT-END DEV",
+      companyName: <a href="http://hivaland.com/" target="_blank">Hivaland </a>,
       characters: [
-        "A complete failure! But learned how NOT to handle a startup.",
-        "My first startup experience, after years of employment.",
-        "Goal: A universal YellowPages for the country.",
+        "bloock.ir : One of the first blockchain startups in Iran to create a platform for renting books on the ethereum blockchain platform",
+        "bitseen.com : An exchange for crypto currencies.",
+        " ReactJs, GatsbyJs, GraphQL, Solidity.",
       ],
     },
     {
-      duration: "2014-2016",
+      duration: "2016-2017",
+      title: "FRONT-END DEV",
+      companyName: <a href="https://sarayar.com/" target="_blank"> Sarayar</a>,
+      characters: [
+        "One of the well-known real-state renting platforms in the country.",
+        "Development & refactoring already established website (sarayar.com).",
+        "ReactJs, Bootstrap, Restful-API, Webpack.",
+      ],
+    },
+
+    {
+      duration: "2013-2016",
       title: "FOUNDER",
-      name: "ninisu",
+      companyName: "ninisu",
       characters: [
         "A +4.5 rated app for New-Mothers.",
         "Failure cause: Lack of fund and workforce.",
         "Django+Nginx, Java for Android.",
       ],
     },
+
     {
-      duration: "2016-2017",
-      title: "FRONT-END DEV",
-      name: "sarayar",
+      duration: "2012-2013",
+      title: "CO-FOUNDER",
+      companyName: "dbjobs",
       characters: [
-        "One of the well-known real-state renting platforms in the country.",
-        "Development & refactoring already established website.",
-        "ReactJs, Bootstrap, Restful-API, Webpack.",
-      ],
-    },
-    {
-      duration: "2017-2020",
-      title: "FRONT-END DEV",
-      name: "Hivaland",
-      characters: [
-        "bloock.ir : One of the first blockchain startups in Iran to create a platform for renting books on the ethereum blockchain platform",
-        "bitseen.com : An exchange for crypto currencies.",
-        " ReactJs, GatsbyJs, GraphQL, Solidity.",
+        "A complete failure! But learned how NOT to handle a startup.",
+        "My first startup experience, after years of employment.",
+        "Goal: A universal YellowPages for the country.",
       ],
     },
   ],
@@ -163,6 +165,72 @@ export default {
           link: "",
         },
       ],
+    },
+  ],
+  img_set_1: [
+    {
+      src: require("./images/gallery/fulls/01.jpg"),
+      // thumbnail: require('./images/gallery/thumbs/01.jpg'),
+      url: "https://mrnewid.ir",
+      title: "MrNewId",
+      desc: "My blog about Blockchain",
+      full: true,
+    },
+    {
+      src: require("./images/gallery/fulls/02.jpg"),
+      // thumbnail: require('./images/gallery/thumbs/02.jpg'),
+      url: "http://www.bitseen.com",
+      title: "BitSeen",
+      desc: "Be one with the mountains",
+    },
+    {
+      src: require("./images/gallery/fulls/03.jpg"),
+      // thumbnail: require('./images/gallery/thumbs/03.jpg'),
+      url: "https://www.nardun.ir",
+      title: "Nardun",
+      desc: "Be one with the time",
+    },
+  ],
+  img_set_2: [
+    {
+      src: require("./images/gallery/fulls/05.jpg"),
+      thumbnail: require("./images/gallery/thumbs/05.jpg"),
+      title: "Any Curiosity",
+      desc: "Be one with the curiosity",
+      full: true,
+    },
+    {
+      src: require("./images/gallery/fulls/06.jpg"),
+      thumbnail: require("./images/gallery/thumbs/06.jpg"),
+      title: "Any source of enlightenment",
+      desc: "Be one with the soul",
+    },
+    {
+      src: require("./images/gallery/fulls/07.jpg"),
+      thumbnail: require("./images/gallery/thumbs/07.jpg"),
+      title: "Be in present",
+      desc: "Be one with the present",
+    },
+  ],
+  img_set_3: [
+    {
+      src: require("./images/gallery/fulls/08.jpg"),
+      thumbnail: require("./images/gallery/thumbs/08.jpg"),
+      title: "Give away",
+      desc: "Be one with the empathy",
+    },
+    {
+      src: require("./images/gallery/fulls/09.jpg"),
+      thumbnail: require("./images/gallery/thumbs/09.jpg"),
+      title: "Moment",
+      desc: "Be one with the moment",
+    },
+    {
+      src: require("./images/gallery/fulls/10.jpg"),
+      thumbnail: require("./images/gallery/thumbs/10.jpg"),
+      title: "Serenity",
+      desc: "Be one with the purity",
+      full: true,
     },
   ],
 }
