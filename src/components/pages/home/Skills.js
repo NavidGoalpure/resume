@@ -40,60 +40,52 @@ const Content = styled.div`
   padding-top: 6rem !important;
   padding-left: 7rem !important;
 `
-const CoverLetter = () => {
-  const reactSkills = config.skills.reactSkills.map(skill => (
 
-    <li className="icon " >
+function drawLi(object) {
+  const skills = config.skills[object].map(skill => (
+    <li className="icon" >
       <i className="fa fa-star" style={skill.isVersed ? iconVersedStyle : iconNormalStyle} />
-      <p style={{display: 'inline'}}> {skill.skill}</p>
+      {skill.link ?
+        (<a target="_blank" rel="noopener noreferrer" href={skill.link}>
+          <p style={{display: 'inline'}}> {skill.skill}</p>
+        </a>)
+        :
+        <p style={{display: 'inline'}}> {skill.skill}</p>
+      }
     </li >
-
   ))
-  const cssSkills = config.skills.cssSkills.map(skill => (
-    <li className="icon " >
-      <i className="fa fa-star" style={skill.isVersed ? iconVersedStyle : iconNormalStyle} />
-      <p style={{display: 'inline'}}> {skill.skill}</p>
-    </li >
-
-  ))
-  const otherSkills = config.skills.other.map(skill => (
-    <li className="icon " >
-      <i className="fa fa-star" style={skill.isVersed ? iconVersedStyle : iconNormalStyle} />
-      <p style={{display: 'inline'}}> {skill.skill}</p>
-    </li >
-
-  ))
-
-  return (
-    <section>
-      <header>
-        <h2>My Skills</h2>
-      </header>
-      <Content className="content" >
-        <Section >
-          <header><Title> React Realated </Title> </header>
-          <ul className="feature-icons">
-            {reactSkills}
-          </ul>
-        </Section>
-
-        <Section>
-          <header><Title> CSS Realated </Title> </header>
-          <ul className="feature-icons">
-            {cssSkills}
-          </ul >
-        </Section>
-
-        <Section>
-          <header><Title> Others </Title> </header>
-          <ul className="feature-icons">
-            {otherSkills}
-          </ul >
-        </Section>
-      </Content >
-    </section >
-
-
-  )
+  return skills
 }
+const CoverLetter = () => (
+  <section>
+    <header>
+      <h2>My Skills</h2>
+    </header>
+    <Content className="content" >
+      <Section >
+        <header><Title> React Realated </Title> </header>
+        <ul className="feature-icons">
+          {drawLi('reactSkills')}
+        </ul>
+      </Section>
+
+      <Section>
+        <header><Title> CSS Realated </Title> </header>
+        <ul className="feature-icons">
+          {drawLi('cssSkills')}
+        </ul >
+      </Section>
+
+      <Section>
+        <header><Title> Others </Title> </header>
+        <ul className="feature-icons">
+          {drawLi('other')}
+        </ul >
+      </Section>
+    </Content >
+  </section >
+
+
+)
+
 export default CoverLetter

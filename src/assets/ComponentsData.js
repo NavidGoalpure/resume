@@ -102,8 +102,7 @@ export default {
       },
       {
         skill: "Context",
-        link:
-          "https://github.com/NavidGoalpure/resume/blob/master/src/components/skillsTour/shopping/Context.js",
+        link: "https://github.com/NavidGoalpure/resume/blob/master/src/components/pages/skillsTour/shopping/Context.js",
         isVersed: true,
       },
       {
@@ -114,8 +113,7 @@ export default {
       },
       {
         skill: "Hook",
-        link:
-          "https://github.com/NavidGoalpure/resume/blob/master/src/components/skillsTour/shopping/hooks/useHover.js",
+        link: "https://github.com/NavidGoalpure/resume/blob/master/src/components/pages/skillsTour/shopping/hooks/useHover.js",
         isVersed: true,
       },
       {
@@ -171,7 +169,7 @@ export default {
     other: [
       {
         skill: "Restfull-API",
-        link: "",
+        link: "https://github.com/NavidGoalpure/SteemAceUi/blob/master/src/pages/feedback/GoogleFormUi.jsx",
         isVersed: true,
       },
       {
@@ -182,7 +180,7 @@ export default {
       },
       {
         skill: "Nodejs",
-        link: "",
+        link: "https://github.com/NavidGoalpure/SteemAceApi",
         isVersed: false,
       },
     ],

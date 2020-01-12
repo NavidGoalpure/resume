@@ -3,18 +3,18 @@ import React from "react"
 import Layout from "../components/Layout"
 import Footer from "../components/Footer"
 import SideFooter from "../components/SideFooter"
-import { CoverLetter, Hero, Employment, Skills } from "../components/pages/home"
+import {CoverLetter, Hero, Employment, Skills} from "../components/pages/home"
 import Gallery from "../components/Gallery"
 import ContactForm from "../components/ContactForm"
-import { Link } from "gatsby"
+import {Link} from "gatsby"
 import config from "../assets/ComponentsData"
 
 const IndexPage = () => (
   <Layout data-test="comp-index-page">
     <div id="wrapper">
-      <Hero />
-      <CoverLetter />
-      <Employment />
+      {/* <Hero /> */}
+      {/* <CoverLetter /> */}
+      {/* <Employment /> */}
       <Skills />
       <section>
         <header>
