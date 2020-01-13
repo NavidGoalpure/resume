@@ -166,6 +166,12 @@ export default {
           "https://github.com/NavidGoalpure/mrNewid/blob/master/src/components/Article/Headline.js",
         isVersed: false,
       },
+      {
+        skill: "sass,scss",
+        link:
+          "https://github.com/NavidGoalpure/resume/blob/master/src/assets/sass/components/_gallery.scss",
+        isVersed: false,
+      },
     ],
 
     other: [
@@ -180,6 +186,11 @@ export default {
         link:
           "https://github.com/NavidGoalpure/SteemAceUi/blob/master/src/queries/feedsQuery.js",
         isVersed: true,
+      },
+      {
+        skill: "PWA",
+        link: "https://www.nardun.ir",
+        isVersed: false,
       },
       {
         skill: "Nodejs",
