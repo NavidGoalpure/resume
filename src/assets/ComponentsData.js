@@ -197,16 +197,23 @@ export default {
     {
       src: require("./images/gallery/fulls/02.jpg"),
       // thumbnail: require('./images/gallery/thumbs/02.jpg'),
-      url: "http://www.bitseen.com",
+      url: "http://bitseen.com",
       title: "BitSeen",
-      desc: "Be one with the mountains",
+      desc: "A exchange for crypto currencies",
     },
     {
       src: require("./images/gallery/fulls/03.jpg"),
       // thumbnail: require('./images/gallery/thumbs/03.jpg'),
       url: "https://www.nardun.ir",
       title: "Nardun",
-      desc: "Be one with the time",
+      desc: "A collection of questions for conversation",
+    },
+    {
+      src: require("./images/gallery/fulls/04.jpg"),
+      // thumbnail: require('./images/gallery/thumbs/03.jpg'),
+      url: "https://www.sarayar.com",
+      title: "Sarayar",
+      desc: "A airbnb for Iran",
     },
   ],
   img_set_2: [
