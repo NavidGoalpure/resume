@@ -1,6 +1,5 @@
 import React from "react"
 const Gallery = ({images}) => {
-  console.log(images)
   return (
     <div className='gallery'>
       {images.map(image => (

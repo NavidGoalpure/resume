@@ -36,10 +36,7 @@ const Title = styled.h3`
     text-decoration: underline;
   }
 `
-const Content = styled.div`
-  padding-top: 6rem !important;
-  padding-left: 7rem !important;
-`
+
 
 function drawLi(object) {
   const skills = config.skills[object].map(skill => (
@@ -56,36 +53,43 @@ function drawLi(object) {
   ))
   return skills
 }
-const CoverLetter = () => (
+const MySkills = () => (
   <section>
     <header>
       <h2>My Skills</h2>
     </header>
-    <Content className="content" >
+    <div className="content" >
+      <p> The <strong>Yellow star</strong> mean, i am export in that and the <strong> White star</strong> mean, i work with them in project[s] but i am not expert in them</p>
       <Section >
         <header><Title> React Realated </Title> </header>
-        <ul className="feature-icons">
-          {drawLi('reactSkills')}
-        </ul>
+        <div className="content">
+          <ul className="feature-icons">
+            {drawLi('reactSkills')}
+          </ul>
+        </div>
       </Section>
 
       <Section>
         <header><Title> CSS Realated </Title> </header>
-        <ul className="feature-icons">
-          {drawLi('cssSkills')}
-        </ul >
+        <div className="content">
+          <ul className="feature-icons">
+            {drawLi('cssSkills')}
+          </ul >
+        </div>
       </Section>
 
       <Section>
         <header><Title> Others </Title> </header>
-        <ul className="feature-icons">
-          {drawLi('other')}
-        </ul >
+        <div className="content">
+          <ul className="feature-icons">
+            {drawLi('other')}
+          </ul >
+        </div>
       </Section>
-    </Content >
+    </div>
   </section >
 
 
 )
 
-export default CoverLetter
+export default MySkills
