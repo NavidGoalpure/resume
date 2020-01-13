@@ -102,7 +102,8 @@ export default {
       },
       {
         skill: "Context",
-        link: "https://github.com/NavidGoalpure/resume/blob/master/src/components/pages/skillsTour/shopping/Context.js",
+        link:
+          "https://github.com/NavidGoalpure/resume/blob/master/src/components/pages/skillsTour/shopping/Context.js",
         isVersed: true,
       },
       {
@@ -113,7 +114,8 @@ export default {
       },
       {
         skill: "Hook",
-        link: "https://github.com/NavidGoalpure/resume/blob/master/src/components/pages/skillsTour/shopping/hooks/useHover.js",
+        link:
+          "https://github.com/NavidGoalpure/resume/blob/master/src/components/pages/skillsTour/shopping/hooks/useHover.js",
         isVersed: true,
       },
       {
@@ -169,7 +171,8 @@ export default {
     other: [
       {
         skill: "Restfull-API",
-        link: "https://github.com/NavidGoalpure/SteemAceUi/blob/master/src/pages/feedback/GoogleFormUi.jsx",
+        link:
+          "https://github.com/NavidGoalpure/SteemAceUi/blob/master/src/pages/feedback/GoogleFormUi.jsx",
         isVersed: true,
       },
       {
@@ -214,48 +217,6 @@ export default {
       url: "https://www.sarayar.com",
       title: "Sarayar",
       desc: "A airbnb for Iran",
-    },
-  ],
-  img_set_2: [
-    {
-      src: require("./images/gallery/fulls/05.jpg"),
-      thumbnail: require("./images/gallery/thumbs/05.jpg"),
-      title: "Any Curiosity",
-      desc: "Be one with the curiosity",
-      full: true,
-    },
-    {
-      src: require("./images/gallery/fulls/06.jpg"),
-      thumbnail: require("./images/gallery/thumbs/06.jpg"),
-      title: "Any source of enlightenment",
-      desc: "Be one with the soul",
-    },
-    {
-      src: require("./images/gallery/fulls/07.jpg"),
-      thumbnail: require("./images/gallery/thumbs/07.jpg"),
-      title: "Be in present",
-      desc: "Be one with the present",
-    },
-  ],
-  img_set_3: [
-    {
-      src: require("./images/gallery/fulls/08.jpg"),
-      thumbnail: require("./images/gallery/thumbs/08.jpg"),
-      title: "Give away",
-      desc: "Be one with the empathy",
-    },
-    {
-      src: require("./images/gallery/fulls/09.jpg"),
-      thumbnail: require("./images/gallery/thumbs/09.jpg"),
-      title: "Moment",
-      desc: "Be one with the moment",
-    },
-    {
-      src: require("./images/gallery/fulls/10.jpg"),
-      thumbnail: require("./images/gallery/thumbs/10.jpg"),
-      title: "Serenity",
-      desc: "Be one with the purity",
-      full: true,
     },
   ],
 }
