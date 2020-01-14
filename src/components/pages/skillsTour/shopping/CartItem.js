@@ -6,13 +6,12 @@ function CartItem({item}) {
   const [hovered, ref] = useHover()
   const {removeFromCart} = useContext(Context)
   //TODO: change icon to awesom method
-  const iconClassName = hovered ? "ri-delete-bin-fill" : "ri-delete-bin-line"
+  const iconClassName = hovered ? "fa fa-trash" : "fa fa-trash"
 
   return (
     <tr>
       <td onClick={() => removeFromCart(item.id)} ref={ref}>
-        <i className={iconClassName} />
-        {/* <p>Remove</p> */}
+        <i className={iconClassName} style={{fontSize: 'x-large'}} />
       </td>
       <td>
         <img src={item.url} width="130px" />
