@@ -1,6 +1,6 @@
-import React, {useContext} from "react"
+import React, { useContext } from "react"
 
-import {Context} from "./Context"
+import { Context } from "./Context"
 import useHover from "./hooks/useHover"
 import styled from "styled-components"
 
@@ -8,10 +8,10 @@ const Img = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
-  &: hover{
+  &: hover {
     object-fit: none;
   }
- `
+`
 const IconContainer = styled.div`
   position: absolute;
   background-color: #76b852;
@@ -22,9 +22,9 @@ const IconContainer = styled.div`
   transition: transform 300ms ease-in-out;
   }
  `
-function Image({className, img}) {
+function Image({ className, img }) {
   const [hovered, ref] = useHover()
-  const {toggleFavorite, addToCart, cartItems, removeFromCart} = useContext(
+  const { toggleFavorite, addToCart, cartItems, removeFromCart } = useContext(
     Context
   )
 

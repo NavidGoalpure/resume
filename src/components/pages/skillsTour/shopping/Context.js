@@ -1,17 +1,12 @@
-import React, {useState, useEffect} from "react"
-
+import React, {useState} from "react"
+import useFetch from "use-http"
 const Context = React.createContext()
 
 function ContextProvider({children}) {
-  const [allPhotos, setAllPhotos] = useState([])
   const [cartItems, setCartItems] = useState([])
-
   const url = "https://raw.githubusercontent.com/bobziroll/scrimba-react-bootcamp-images/master/images.json"
-  useEffect(() => {
-    fetch(url)
-      .then(res => res.json())
-      .then(data => setAllPhotos(data))
-  }, [])
+  const options = {data: []}
+  const {error, loading, data: allPhotos} = useFetch(url, options, [])
 
   function toggleFavorite(id) {
     const updatedArr = allPhotos.map(photo => {
@@ -37,6 +32,8 @@ function ContextProvider({children}) {
   }
   return (
     <Context.Provider value={{
+      error,
+      loading,
       allPhotos,
       toggleFavorite,
       cartItems,

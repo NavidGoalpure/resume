@@ -19,7 +19,7 @@ const GalleryContainer = styled.div`
 }
 `
 function Photos() {
-  const {allPhotos} = useContext(Context)
+  const {error, loading, allPhotos} = useContext(Context)
   const imageElements = allPhotos.map((img, i) => (
     <Image key={img.id} img={img} className={getClass(i)} />
   ))
@@ -27,7 +27,8 @@ function Photos() {
   return (
     <GalleryContainer>
       <main className="photos">
-        {/* <h2>hi</h2> */}
+        {error && <h2>ٰUnfortunately, an error has occurred. Please check your internet</h2>}
+        {loading && <h2> LOADING...</h2>}
         {imageElements}
       </main>
     </GalleryContainer>
