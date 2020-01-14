@@ -197,6 +197,11 @@ export default {
         link: "https://github.com/NavidGoalpure/SteemAceApi",
         isVersed: false,
       },
+      {
+        skill: "Linux (Clinet)",
+        link: "",
+        isVersed: true,
+      },
     ],
   },
   img_set_1: [
