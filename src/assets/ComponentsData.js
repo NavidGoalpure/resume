@@ -235,4 +235,26 @@ export default {
       desc: "A airbnb for Iran",
     },
   ],
+  tourSteps: [
+    {
+      target: "#one",
+      content: "This page disigned for show my Skills on react. at least one skill used to create each section. this sections only designed for this goal and dont have a real use.",
+      title: "Tour Guidanve",
+      placement: "center",
+    },
+    {
+      target: ".photos",
+      content: "I used from 'Context' \n for store your favorite images or send them to cart and used from 'Custom Hook' to handel the Hover event.",
+      title: "title is...",
+    },
+    {
+      target: ".table-wrapper",
+      content: "This another awesome feature!",
+    },
+    {
+      target: "#redux-button",
+      content: "this is a redux button",
+    }
+  ]
+
 }
