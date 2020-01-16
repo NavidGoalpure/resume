@@ -14,7 +14,22 @@ const Button = styled.button`
   position: absolute;
   bottom: 2rem;
   right: 5rem;
-  border-radius: 100%;
+`
+const BeautyButton = styled(Button)`
+  background-color: lightgoldenrodyellow;
+  &:hover{
+  color: black !important;
+  }
+}
+`
+const UglyButton = styled(Button)`
+  background-color: red;
+  color: cyan !important;
+  border-radius: 43%;
+  &:hover{
+  color: yellow !important;
+  }
+}
 `
 const uglyStyle = {
   color: "red",
@@ -47,17 +62,21 @@ const IndexPage = () => {
                 }}
               />
               <ShowImages />
-              <Button
-                id="redux-button"
-                style={
-                  isUglyMode
-                    ? { backgroundColor: "black", color: "white" }
-                    : null
-                }
-                onClick={() => dispatch(toggleUglyMode(!isUglyMode))}
-              >
-                {isUglyMode ? "beauty" : "ugley"}
-              </Button>
+              {isUglyMode ? (
+                <UglyButton
+                  id="redux-button"
+                  onClick={() => dispatch(toggleUglyMode(false))}
+                >
+                  beauty
+                </UglyButton>
+              ) : (
+                <BeautyButton
+                  id="redux-button"
+                  onClick={() => dispatch(toggleUglyMode(true))}
+                >
+                  ugly
+                </BeautyButton>
+              )}
             </div>
           </div>
         </section>
