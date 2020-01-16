@@ -1,7 +1,7 @@
 import React from "react"
 import ShowImages from "../components/pages/skillsTour/shopping"
 import { useSelector, useDispatch } from "react-redux"
-import { toggleDarkMode } from "../state/mode"
+import { toggleUglyMode } from "../state/mode"
 import styled from "styled-components"
 import Joyride from "react-joyride"
 import config from "../assets/ComponentsData"
@@ -16,15 +16,25 @@ const Button = styled.button`
   right: 5rem;
   border-radius: 100%;
 `
+const uglyStyle = {
+  color: "red",
+  backgroundColor: "blue",
+  textDecoration: "underline",
+}
+
 const IndexPage = () => {
   const dispatch = useDispatch()
-  const isDarkMode = useSelector(state => state.mode.isDarkMode)
+  const isUglyMode = useSelector(state => state.mode.isUglyMode)
   return (
     <div id="wrapper" style={{ padding: "0" }}>
       <Container>
-        <section id="one" className="main-container">
-          <div className="container">
-            <div className="content">
+        <section
+          id="one"
+          className="main-container"
+          style={isUglyMode ? uglyStyle : null}
+        >
+          <div id="testId" className="container">
+            <div className="content" style={isUglyMode ? uglyStyle : null}>
               <Joyride
                 steps={config.tourSteps}
                 continuous
@@ -40,14 +50,13 @@ const IndexPage = () => {
               <Button
                 id="redux-button"
                 style={
-                  isDarkMode
+                  isUglyMode
                     ? { backgroundColor: "black", color: "white" }
                     : null
                 }
-                onClick={() => dispatch(toggleDarkMode(!isDarkMode))}
+                onClick={() => dispatch(toggleUglyMode(!isUglyMode))}
               >
-                {" "}
-                {isDarkMode ? "beauty" : "ugley"}
+                {isUglyMode ? "beauty" : "ugley"}
               </Button>
             </div>
           </div>

@@ -1,18 +1,19 @@
 const initialState = {
-  isDarkMode: false,
-};
+  isUglyMode: false,
+}
 
-const TOGGLE_DARKMODE = 'TOGGLE_DARKMODE';
+const TOGGLE_UGLYMODE = "TOGGLE_AGLYMODE"
 
-export const toggleDarkMode = isDarkMode => ({
-  type: TOGGLE_DARKMODE, isDarkMode
-});
+export const toggleUglyMode = isUglyMode => ({
+  type: TOGGLE_UGLYMODE,
+  isUglyMode,
+})
 
 export default (state = initialState, action) => {
   switch (action.type) {
-    case TOGGLE_DARKMODE:
-      return {...state, isDarkMode: action.isDarkMode};
+    case TOGGLE_UGLYMODE:
+      return { ...state, isUglyMode: action.isUglyMode }
     default:
-      return state;
+      return state
   }
-};
+}

@@ -2,11 +2,12 @@ import React, { useContext } from "react"
 import { Context } from "./Context"
 import useHover from "./hooks/useHover"
 import styled from "styled-components"
+import { useSelector } from "react-redux"
 
 const Img = styled.img`
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: ${props => (props.isUgly ? "contain" : "cover")};
   &: hover {
     object-fit: none;
   }
@@ -22,6 +23,7 @@ const IconContainer = styled.div`
   }
  `
 function Image({ className, img }) {
+  const isUgly = useSelector(state => state.mode.isUglyMode)
   const [hovered, ref] = useHover()
   const { toggleFavorite, addToCart, cartItems, removeFromCart } = useContext(
     Context
@@ -66,7 +68,7 @@ function Image({ className, img }) {
       className={`${className} image-container`}
       ref={ref}
     >
-      <Img src={img.url} />
+      <Img src={img.url} isUgly={isUgly} />
       {(hovered || img.isFavorite) && (
         <IconContainer>
           {heartIcon()}

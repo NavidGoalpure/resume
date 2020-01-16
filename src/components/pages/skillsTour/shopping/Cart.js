@@ -1,10 +1,9 @@
-import React, {useState, useContext} from "react"
-import {Context} from "./Context"
+import React, { useContext } from "react"
+import { Context } from "./Context"
 import CartItem from "./CartItem"
 
 function Cart() {
-  const [buttonText, setButtonText] = useState("Place Order")
-  const {cartItems, emptyCart} = useContext(Context)
+  const { cartItems } = useContext(Context)
   const totalCost = 5.99 * cartItems.length
   const totalCostDisplay = totalCost.toLocaleString("en-US", {
     style: "currency",
@@ -14,19 +13,9 @@ function Cart() {
   const cartItemElements = cartItems.map(item => (
     <CartItem key={item.id} item={item} />
   ))
-
-  function placeOrder() {
-    setButtonText("Ordering...")
-    setTimeout(() => {
-      console.log("Order placed!")
-      setButtonText("Place Order")
-      emptyCart()
-    }, 3000)
-  }
-
   return (
     <main className="table-wrapper">
-      <h1 style={{fontSized: '4rem'}} >Check out</h1>
+      <h1 style={{ fontSized: "4rem" }}>Check out</h1>
       <table>
         <thead>
           <tr>
@@ -39,7 +28,7 @@ function Cart() {
         <tfoot>
           <tr>
             <td colSpan="1"></td>
-            <td style={{textAlign: "end"}}>Total:</td>
+            <td style={{ textAlign: "end" }}>Total:</td>
             <td>{totalCostDisplay}</td>
           </tr>
         </tfoot>
