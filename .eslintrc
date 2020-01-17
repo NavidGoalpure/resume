@@ -6,17 +6,30 @@
   "parser": "@typescript-eslint/parser",
   "plugins": ["prettier", "@typescript-eslint"],
   "extends": [
-    "eslint:recommended",
+    "plugin:react/recommended",
     "plugin:prettier/recommended",
     "plugin:import/warnings",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint" // Uses eslint-config-prettier to disable ESLint rules from @typescript-eslint/eslint-plugin that would conflict with prettier
   ],
+
+  "parserOptions": {
+    "ecmaVersion": 2018, // Allows for the parsing of modern ECMAScript features
+    "sourceType": "module", // Allows for the use of imports
+    "ecmaFeatures": {
+      "jsx": true // Allows for the parsing of JSX
+    }
+  },
   "rules": {
     "prettier/prettier": "error",
     "@typescript-eslint/indent": 0,
     "@typescript-eslint/explicit-function-return-type": 0,
     "@typescript-eslint/no-unused-vars": 2,
     "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "settings": {
+    "react": {
+      "version": "detect" // Tells eslint-plugin-react to automatically detect the version of React to use
+    }
   }
 }
-
