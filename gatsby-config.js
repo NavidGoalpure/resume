@@ -22,7 +22,6 @@ module.exports = {
     "gatsby-plugin-sass",
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-typescript`,
-    "gatsby-plugin-tslint",
     "gatsby-plugin-offline",
   ],
 }
