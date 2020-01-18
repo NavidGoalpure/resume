@@ -2,15 +2,15 @@ import React, { useContext } from 'react'
 import { Context } from './Context'
 import useHover from './hooks/useHover'
 import { useSelector } from 'react-redux'
-type Item = {
-  id: string
-  url: string
-}
+
 type Props = {
-  item: Item
+  item: {
+    id: string
+    url: string
+  }
 }
 
-function CartItem({ item }: Props) {
+function CartItem({ item }: Props): React.ReactNode {
   const isUglyMode = useSelector(
     (state: { mode: { isUglyMode: boolean } }) => state.mode.isUglyMode
   )
