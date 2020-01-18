@@ -243,17 +243,25 @@ export default {
       placement: "center",
     },
     {
+      target: "#one",
+      content: "If you favorite a image or add it to cart, it is add to 'Context'.",
+      title: "Context Provider",
+      placement: "top-start",
+    },
+    {
       target: ".photos",
-      content: "I used from 'Context' \n for store your favorite images or send them to cart and used from 'Custom Hook' to handel the Hover event.",
-      title: "title is...",
+      content: "It use 'Custom Hook' to handel the Hover event.",
+      title: "Hook",
     },
     {
       target: ".table-wrapper",
-      content: "This another awesome feature!",
+      content: "In this section, selected images are read from 'context'",
+      title: " Context Consumer",
     },
     {
       target: "#redux-button",
-      content: "this is a redux button",
+      content: "This button enable/disable a toggle for beaty or ugly disign with 'Redux'",
+      title: "Redux"
     }
   ]
 

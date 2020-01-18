@@ -1,10 +1,10 @@
-import React from "react"
-import ShowImages from "../components/pages/skillsTour/shopping"
-import { useSelector, useDispatch } from "react-redux"
-import { toggleUglyMode } from "../state/mode"
-import styled from "styled-components"
-import Joyride from "react-joyride"
-import config from "../assets/ComponentsData"
+import React from 'react'
+import ShowImages from '../components/pages/skillsTour/shopping'
+import { useSelector, useDispatch } from 'react-redux'
+import { toggleUglyMode } from '../state/mode'
+import styled from 'styled-components'
+import Joyride from 'react-joyride'
+import config from '../assets/ComponentsData'
 
 const Container = styled.div`
   background: #76b852;
@@ -22,6 +22,9 @@ const BeautyButton = styled(Button)`
   }
 }
 `
+const Tour = styled(Joyride)`
+  position: 'absolute !important';
+`
 const UglyButton = styled(Button)`
   background-color: red;
   color: cyan !important;
@@ -32,16 +35,16 @@ const UglyButton = styled(Button)`
 }
 `
 const uglyStyle = {
-  color: "red",
-  backgroundColor: "blue",
-  textDecoration: "underline",
+  color: 'red',
+  backgroundColor: 'blue',
+  textDecoration: 'underline',
 }
 
 const IndexPage = () => {
   const dispatch = useDispatch()
   const isUglyMode = useSelector(state => state.mode.isUglyMode)
   return (
-    <div id="wrapper" style={{ padding: "0" }}>
+    <div id="wrapper" style={{ padding: '0' }}>
       <Container>
         <section
           id="one"
@@ -50,14 +53,15 @@ const IndexPage = () => {
         >
           <div id="testId" className="container">
             <div className="content" style={isUglyMode ? uglyStyle : null}>
-              <Joyride
+              <Tour
                 steps={config.tourSteps}
                 continuous
                 disableOverlayClose
                 showProgress
                 styles={{
                   tooltipContent: {
-                    whiteSpace: "pre-line",
+                    whiteSpace: 'pre-line',
+                    textAlign: 'start',
                   },
                 }}
               />

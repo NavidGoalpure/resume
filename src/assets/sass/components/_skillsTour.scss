@@ -6,6 +6,7 @@ $background_color_1: #f47b6e;
 $border_color_1: #150605;
 $border_color_2: lightgray;
 
+
 main.photos {
   padding: 10px;
   display: grid;
@@ -16,6 +17,12 @@ main.photos {
 }
 main.cart-page {
   padding: 10px;
+}
+button {
+  &:hover {
+  background-color: rgb(251,102, 141) !important;
+  color: unset !important;
+}
 }
 .cart-page {
   > h1 {
