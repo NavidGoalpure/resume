@@ -119,9 +119,9 @@ export default {
         isVersed: true,
       },
       {
-        skill: "MaterialUi",
+        skill: "HOC/RenerProps/CustomeHook",
         link:
-          "https://github.com/NavidGoalpure/SteemAceUi/blob/master/src/modules/PostCards/PostCard.jsx",
+          "https://github.com/NavidGoalpure/resume/blob/master/src/state/ReduxWrapper.js",
         isVersed: true,
       },
       {
@@ -160,6 +160,13 @@ export default {
         link: "",
         isVersed: false,
       },
+      {
+        skill: "MaterialUi",
+        link:
+          "https://github.com/NavidGoalpure/SteemAceUi/blob/master/src/modules/PostCards/PostCard.jsx",
+        isVersed: true,
+      },
+
       {
         skill: "postcss",
         link:
