@@ -119,11 +119,22 @@ export default {
         isVersed: true,
       },
       {
-        skill: "HOC/RenerProps/CustomeHook",
+        skill: "HOC",
+        link: "https://github.com/NavidGoalpure/SteemAceUi/blob/master/src/pages/PostsForVote/voteMutation.jsx",
+        isVersed: true,
+      },
+      {
+        skill: "RenerProps",
+        link: "https://github.com/NavidGoalpure/resume/blob/4e99528d4432db62a3a80fd5116cfc278101dd0d/src/components/Layout.js",
+        isVersed: true,
+      },
+      {
+        skill: "CustomeHook",
         link:
           "https://github.com/NavidGoalpure/resume/blob/master/src/state/ReduxWrapper.js",
         isVersed: true,
       },
+
       {
         skill: "Typescript",
         link: "",
