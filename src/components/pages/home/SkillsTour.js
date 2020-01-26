@@ -1,5 +1,5 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import { Link } from 'gatsby'
 
 const SkillsTour = () => (
   <section>
@@ -8,7 +8,7 @@ const SkillsTour = () => (
     </header>
     <div className="content">
       <p>
-        If you want to take a tour about my <strong>React Skills</strong> click
+        If you want to take a tour on my <strong>React Skills</strong>, click
         this button.
       </p>
       <ul data-test="skills-tour-button" className="actions">

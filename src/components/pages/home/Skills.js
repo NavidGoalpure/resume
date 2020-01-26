@@ -1,7 +1,6 @@
-
-import React from "react"
-import config from "../../../assets/ComponentsData"
-import styled from "styled-components"
+import React from 'react'
+import config from '../../../assets/ComponentsData'
+import styled from 'styled-components'
 
 const iconVersedStyle = {
   width: '1.6rem',
@@ -12,7 +11,7 @@ const iconVersedStyle = {
   display: 'inline-block',
   backgroundColor: 'gray',
   color: 'gold',
-  fontSize: 'smaller'
+  fontSize: 'smaller',
 }
 
 const iconNormalStyle = {
@@ -24,32 +23,34 @@ const iconNormalStyle = {
   display: 'inline-block',
   backgroundColor: 'gray',
   color: 'white',
-  fontSize: 'smaller'
+  fontSize: 'smaller',
 }
 const Section = styled.section`
   margin-top: 0 !important;
 `
 const Title = styled.h3`
   margin-bottom: 0.5rem;
-    @media (max-width: 1150px) {
+  @media (max-width: 1150px) {
     color: darkgreen;
     text-decoration: underline;
   }
 `
 
-
 function drawLi(object) {
   const skills = config.skills[object].map(skill => (
-    <li className="icon" >
-      <i className="fa fa-star" style={skill.isVersed ? iconVersedStyle : iconNormalStyle} />
-      {skill.link ?
-        (<a target="_blank" rel="noopener noreferrer" href={skill.link}>
-          <p style={{display: 'inline'}}> {skill.skill}</p>
-        </a>)
-        :
-        <p style={{display: 'inline'}}> {skill.skill}</p>
-      }
-    </li >
+    <li className="icon">
+      <i
+        className="fa fa-star"
+        style={skill.isVersed ? iconVersedStyle : iconNormalStyle}
+      />
+      {skill.link ? (
+        <a target="_blank" rel="noopener noreferrer" href={skill.link}>
+          <p style={{ display: 'inline' }}> {skill.skill}</p>
+        </a>
+      ) : (
+        <p style={{ display: 'inline' }}> {skill.skill}</p>
+      )}
+    </li>
   ))
   return skills
 }
@@ -58,38 +59,41 @@ const MySkills = () => (
     <header>
       <h2>My Skills</h2>
     </header>
-    <div className="content" >
-      <p> The <strong>Yellow star</strong> mean, i am export in that and the <strong> White star</strong> mean, i work with them in project[s] but i am not expert in them</p>
-      <Section >
-        <header><Title> React Realated </Title> </header>
+    <div className="content">
+      <p>
+        {' '}
+        Hint: The <strong>Yellow star</strong> means being expert in the field.
+        The <strong> White star</strong> means be used in case[s] but not
+        experted.
+      </p>
+      <Section>
+        <header>
+          <Title> React Realated </Title>{' '}
+        </header>
         <div className="content">
-          <ul className="feature-icons">
-            {drawLi('reactSkills')}
-          </ul>
+          <ul className="feature-icons">{drawLi('reactSkills')}</ul>
         </div>
       </Section>
 
       <Section>
-        <header><Title> CSS Realated </Title> </header>
+        <header>
+          <Title> CSS Realated </Title>{' '}
+        </header>
         <div className="content">
-          <ul className="feature-icons">
-            {drawLi('cssSkills')}
-          </ul >
+          <ul className="feature-icons">{drawLi('cssSkills')}</ul>
         </div>
       </Section>
 
       <Section>
-        <header><Title> Others </Title> </header>
+        <header>
+          <Title> Others </Title>{' '}
+        </header>
         <div className="content">
-          <ul className="feature-icons">
-            {drawLi('other')}
-          </ul >
+          <ul className="feature-icons">{drawLi('other')}</ul>
         </div>
       </Section>
     </div>
-  </section >
-
-
+  </section>
 )
 
 export default MySkills
