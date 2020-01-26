@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { Context } from './Context'
 import CartItem from './CartItem'
-
+import { Pictures } from './types'
 function Cart() {
   const { cartItems } = useContext(Context)
   const totalCost = 5.99 * cartItems.length
@@ -10,7 +10,7 @@ function Cart() {
     currency: 'USD',
   })
 
-  const cartItemElements = cartItems.map((item: { id: React.ReactText }) => (
+  const cartItemElements = cartItems.map((item: Pictures) => (
     <CartItem key={item.id} item={item} />
   ))
   return (

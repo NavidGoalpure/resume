@@ -2,12 +2,10 @@ import React, { useContext } from 'react'
 import { Context } from './Context'
 import useHover from './hooks/useHover'
 import { useSelector } from 'react-redux'
+import { Pictures } from './types'
 
 type Props = {
-  item: {
-    id: string
-    url: string
-  }
+  item: Pictures
 }
 
 function CartItem({ item }: Props): React.ReactNode {
