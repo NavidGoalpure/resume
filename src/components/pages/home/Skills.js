@@ -63,7 +63,7 @@ const MySkills = () => (
       <p>
         {' '}
         Hint: The <strong>Yellow star</strong> means being expert in the field.
-        The <strong> White star</strong> means be used in case[s] but not
+        The <strong> White star</strong> means be used in some case but i am not
         experted.
       </p>
       <Section>

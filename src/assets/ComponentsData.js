@@ -4,35 +4,6 @@
 import React from 'react'
 
 export default {
-  coverLetter: (
-    <p>
-      I have many years of experience as a founder or employee of various
-      startups. To answer the needs of different startups I had to learn various
-      types of programming skills. for example, I learned Android programming
-      for Ninisu, Reactjs for Dehgardi, and Solidity for Bloock.
-      <br />
-      Although in recent years I have focused on working on Reactjs, the
-      environment I described above has enabled me to learn different languages
-      and frameworks quickly.
-      <br />
-      The most important meaning of my life in recent years has been
-      contributing to open source culture specially Blockchain and
-      decentralization. That's why I've written a variety of articles and held
-      some educational events in this area and tried to run startups based on
-      Ethereum, Steem, Blockstack in Iran. But I had to abandon all of these
-      projects due to deterrent laws in Iran and investors' hesitation to invest
-      in blockchain-based startups.
-      <br />
-      Nowadays, this fact is clear to me, if I want to contribute to this
-      movement I should have left my country to work in companies operating in
-      blockchain field.
-      <br />
-      I can make you sure, if I get the opportunity to work in such a company, I
-      will greatly appreciate this opportunity.
-      <br />
-      Navid Goalpure
-    </p>
-  ),
   employment: [
     {
       duration: '2017-2020',
@@ -46,7 +17,7 @@ export default {
         'bloock.ir : One of the first blockchain startups in Iran to create a platform for renting books on the ethereum blockchain.',
         'steemAce: A social network on Steem blockchain.',
         'bitseen.com : An exchange for crypto currencies.',
-        ' ReactJs, GatsbyJs, GraphQL, Solidity.',
+        'Technologies: ReactJs, GatsbyJs, GraphQL, Solidity.',
       ],
     },
     {
@@ -61,7 +32,7 @@ export default {
       characters: [
         'A well-known platform, modeled on AirBnB in Iran.',
         'Develop & refactor already established website (sarayar.com).',
-        'ReactJs, Bootstrap, Restful-API, Webpack.',
+        'Technologies: ReactJs, Bootstrap, Restful-API, Webpack.',
       ],
     },
 
@@ -72,7 +43,7 @@ export default {
       characters: [
         'An Android app for new mothers (rated +4.5 in Cafe Bazaar).',
         'Failure cause: Lack of fund and workforce.',
-        'Django+Nginx, Java for Android.',
+        'Technologies: Django+Nginx, Java for Android.',
       ],
     },
 
@@ -140,7 +111,8 @@ export default {
 
       {
         skill: 'Typescript',
-        link: '',
+        link:
+          'https://github.com/NavidGoalpure/resume/blob/master/src/components/pages/skillsTour/shopping/CartItem.tsx',
         isVersed: false,
       },
     ],
@@ -182,13 +154,13 @@ export default {
       },
 
       {
-        skill: 'postcss',
+        skill: 'Postcss',
         link:
           'https://github.com/NavidGoalpure/mrNewid/blob/master/src/components/Article/Headline.js',
         isVersed: false,
       },
       {
-        skill: 'sass,scss',
+        skill: 'SASS,SCSS',
         link:
           'https://github.com/NavidGoalpure/resume/blob/master/src/assets/sass/components/_gallery.scss',
         isVersed: false,

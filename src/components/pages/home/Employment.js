@@ -37,10 +37,11 @@ function Employment() {
         <h2>Employment</h2>
       </header>
       <div className="content">
-        {/* <p>
-          <strong>Integer mollis egestas</strong> nam maximus erat id euismod
-          egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.
-          </p> */}
+        <p>
+          I have worked on these projects. In some of them I was the{' '}
+          <strong>founder </strong>or <strong>co-founder</strong> of a startup
+          and in others I worked as an <strong>employee</strong>.
+        </p>{' '}
         {content}
       </div>
     </section>
