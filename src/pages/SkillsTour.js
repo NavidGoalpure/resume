@@ -1,7 +1,7 @@
 import React from 'react'
 import ShowImages from '../components/pages/skillsTour/shopping'
-import { useSelector, useDispatch } from 'react-redux'
-import { toggleUglyMode } from '../state/mode'
+import {useSelector, useDispatch} from 'react-redux'
+import {toggleUglyMode} from '../state/mode'
 import styled from 'styled-components'
 import Joyride from 'react-joyride'
 import config from '../assets/ComponentsData'
@@ -12,8 +12,11 @@ const Container = styled.div`
 `
 const Button = styled.button`
   position: absolute;
-  bottom: 2rem;
+  bottom: 0.5rem;
   right: 5rem;
+  &:hover {
+    background-color: #ffffae !important;
+  }
 `
 const BeautyButton = styled(Button)`
   background-color: lightgoldenrodyellow;
@@ -44,7 +47,7 @@ const IndexPage = () => {
   const dispatch = useDispatch()
   const isUglyMode = useSelector(state => state.mode.isUglyMode)
   return (
-    <div id="wrapper" style={{ padding: '0' }}>
+    <div id="wrapper" style={{padding: '0'}}>
       <Container>
         <section
           id="one"
@@ -74,13 +77,13 @@ const IndexPage = () => {
                   beauty
                 </UglyButton>
               ) : (
-                <BeautyButton
-                  id="redux-button"
-                  onClick={() => dispatch(toggleUglyMode(true))}
-                >
-                  ugly
+                  <BeautyButton
+                    id="redux-button"
+                    onClick={() => dispatch(toggleUglyMode(true))}
+                  >
+                    ugly
                 </BeautyButton>
-              )}
+                )}
             </div>
           </div>
         </section>
