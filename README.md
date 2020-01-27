@@ -21,13 +21,13 @@ npm install --global gatsby-cli
 And run from your CLI:
 
 ```sh
-gatsby new <site-name> https://github.com/anubhavsrivastava/gatsby-starter-paradigmshift
+git clone https://github.com/NavidGoalpure/resume.git
 ```
 
 Then you can run it by:
 
 ```sh
-cd gatsby-example-site
+cd resume
 npm install
 gatsby develop
 ```
