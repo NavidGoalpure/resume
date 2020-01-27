@@ -1,5 +1,5 @@
 import React from 'react'
-import config from '../../../assets/ComponentsData'
+import config from '../../../ComponentsData'
 import styled from 'styled-components'
 
 const Section = styled.section`

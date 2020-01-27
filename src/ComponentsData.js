@@ -195,30 +195,31 @@ export default {
   },
   img_set_1: [
     {
-      src: require('./images/gallery/fulls/01.jpg'),
-      // thumbnail: require('./images/gallery/thumbs/01.jpg'),
+      src: require('./assets/images/gallery/fulls/01.jpg'),
+
+      // thumbnail: require('./assets/images/gallery/thumbs/01.jpg'),
       url: 'https://mrnewid.ir',
       title: 'MrNewId',
       desc: 'My blog about Blockchain',
       full: true,
     },
     {
-      src: require('./images/gallery/fulls/02.jpg'),
-      // thumbnail: require('./images/gallery/thumbs/02.jpg'),
+      src: require('./assets/images/gallery/fulls/02.jpg'),
+      // thumbnail: require('./assets/images/gallery/thumbs/02.jpg'),
       url: 'http://bitseen.com',
       title: 'BitSeen',
       desc: 'A exchange for crypto currencies',
     },
     {
-      src: require('./images/gallery/fulls/03.jpg'),
-      // thumbnail: require('./images/gallery/thumbs/03.jpg'),
+      src: require('./assets/images/gallery/fulls/03.jpg'),
+      // thumbnail: require('./assets/images/gallery/thumbs/03.jpg'),
       url: 'https://www.nardun.ir',
       title: 'Nardun',
       desc: 'A collection of questions for conversation',
     },
     {
-      src: require('./images/gallery/fulls/04.jpg'),
-      // thumbnail: require('./images/gallery/thumbs/03.jpg'),
+      src: require('./assets/images/gallery/fulls/04.jpg'),
+      // thumbnail: require('./assets/images/gallery/thumbs/03.jpg'),
       url: 'https://www.sarayar.com',
       title: 'Sarayar',
       desc: 'A airbnb for Iran',
@@ -235,7 +236,7 @@ export default {
     {
       target: '#one',
       content:
-        "If you favorite an image or add it to cart, it will add to 'Context'.",
+        "This images are fetched from Rest-API. If you favorite an image or add it to cart, it will add to 'Context'.",
       title: 'Context Provider',
       placement: 'top-start',
     },

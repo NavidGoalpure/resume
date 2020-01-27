@@ -1,6 +1,6 @@
 import React from 'react'
 import Gallery from './Gallery'
-import config from '../../../assets/ComponentsData'
+import config from '../../../ComponentsData'
 
 const LiveSites = () => (
   <section>
