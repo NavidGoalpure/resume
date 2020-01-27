@@ -1,4 +1,4 @@
-# gatsby-starter-paradigmshift
+# My react resume website
 
 Gatsby.js V2 starter template based on Paradigm Shift by HTML5 UP
 
