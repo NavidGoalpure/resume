@@ -8,11 +8,7 @@ export default {
     {
       duration: '2017-2020',
       title: 'FRONT-END DEV',
-      companyName: (
-        <a href="http://hivaland.com/" target="_blank">
-          Hivaland{' '}
-        </a>
-      ),
+      companyName: 'Hivaland',
       characters: [
         'bloock.ir : One of the first blockchain startups in Iran to create a platform for renting books on the ethereum blockchain.',
         'steemAce: A social network on Steem blockchain.',
