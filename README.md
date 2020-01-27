@@ -1,4 +1,4 @@
-# My react resume website
+# My react resume website [LIVE](http://ng-resume.netlify.com/)
 
 Gatsby.js V2 starter template based on Paradigm Shift by HTML5 UP
 
