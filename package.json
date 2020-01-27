@@ -1,14 +1,14 @@
 {
   "name": "gatsby-starter-paradigmshift",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Paradigm Shift by HTML5 UP",
+  "description": "A website for resume based on gatsby-starter-paradigmshift",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-paradigmshift.git"
+    "url": "git+https://github.com/NavidGoalpure/resume.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Navid Goalpure",
+    "email": "navid.goalpure@gmail.com"
   },
   "dependencies": {
     "gatsby": "^2.4.3",
@@ -76,11 +76,11 @@
   "keywords": [
     "gatsby",
     "gatsby-starter",
-    "gatsby-starter-paradigmshift"
+    "react-resume"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-paradigmshift/issues"
+    "url": "https://github.com/NavidGoalpure/resume/issues"
   },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-paradigmshift#readme"
+  "homepage": "https://github.com/NavidGoalpure/resume#readme"
 }

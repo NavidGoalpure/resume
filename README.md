@@ -3,14 +3,12 @@
 Gatsby.js V2 starter template based on Paradigm Shift by HTML5 UP
 
 For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+This project is forked from [here](https://github.com/anubhavsrivastava/gatsby-starter-paradigmshift.git)
 
-![Screenshot](./src/assets/img/screenshot.jpg)
-
-Check online preview [here](https://anubhavsrivastava.github.io/gatsby-starter-paradigmshift/)
 
 ## Screenshot
 
-![Screenshot](./src/assets/img/demo.png)
+![Screenshot](./src/assets/img/screenshot.jpg)
 
 ## Install
 
@@ -57,18 +55,34 @@ module.exports = {
 
 ```
 
-### Deploying using Github page
+And Edit `componentsData.js` to put up details to components
 
-`package.json` has a default script that uses `gh-pages` module to publish on Github pages. Simply running `npm run deploy` would publish the site on github pages.
+```javascript
 
-Additionally, it also has [path-prefix](https://www.gatsbyjs.org/docs/path-prefix/) value set for gatsby config in `config.js`. Change `pathPrefix` to relevant path if your gatsby site is hosted on subpath of a domain, `https://theanubhav.com/somePath/`. If you are hosting it as root site, i.e, `https://theanubhav.com/` , remove the pathPrefix configuration.
+import React from 'react'
 
-### Contribution
-
-Suggestions and PRs are welcome!
-
-Please create issue or open PR request for contribution.
-
+export default {
+  employment: [
+    {
+      duration: '2017-2020',
+      title: 'FRONT-END DEV',
+      companyName: 'Hivaland',
+      characters: [
+        'bloock.ir : One of the first blockchain startups in Iran to create a platform for renting books on the ethereum blockchain.',
+        'steemAce: A social network on Steem blockchain.',
+        'bitseen.com : An exchange for crypto currencies.',
+        'Technologies: ReactJs, GatsbyJs, NodeJs, GraphQL, Solidity.',
+      ],
+  ...
+  }
+  ...
+  ]
+  ...
+}
+```
+### Alarm
+In this project you will find competing solutions side by side. For example, this project uses SCSS and CssInJS, Contex and Redux and so on.
+That's because I wanted to showcase my ability to use different technologies. Obviously, in a real project, your goal is to achieve project integrity, and avoid using as many competing technologies as possible.
 ### License
 
 [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](LICENSE)
