@@ -61,10 +61,10 @@ const MySkills = () => (
     </header>
     <div className="content">
       <p>
-        {' '}
         Hint: The <strong>Yellow star</strong> means being expert in the field.
         The <strong> White star</strong> means be used in some case but i am not
-        experted.
+        experted.Click each one you want to see the related code on my{' '}
+        <strong>Githab</strong>.
       </p>
       <Section>
         <header>

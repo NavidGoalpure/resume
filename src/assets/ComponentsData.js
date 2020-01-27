@@ -17,7 +17,7 @@ export default {
         'bloock.ir : One of the first blockchain startups in Iran to create a platform for renting books on the ethereum blockchain.',
         'steemAce: A social network on Steem blockchain.',
         'bitseen.com : An exchange for crypto currencies.',
-        'Technologies: ReactJs, GatsbyJs, GraphQL, Solidity.',
+        'Technologies: ReactJs, GatsbyJs, NodeJs, GraphQL, Solidity.',
       ],
     },
     {
