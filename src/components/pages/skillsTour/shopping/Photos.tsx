@@ -1,9 +1,9 @@
-import React, { useContext } from "react"
+import React, { useContext } from 'react'
 
-import Image from "./Image"
-import { Context } from "./Context"
-import { getClass } from "./utils"
-import styled from "styled-components"
+import Image from './Image'
+import { Context } from './Context'
+import { getClass } from './utils'
+import styled from 'styled-components'
 
 const GalleryContainer = styled.div`
   position: relative;

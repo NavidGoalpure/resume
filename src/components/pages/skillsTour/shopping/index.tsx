@@ -1,8 +1,8 @@
-import React from "react"
-import { ContextProvider } from "./Context"
-import Cart from "./Cart"
-import Photos from "./Photos"
-import styled from "styled-components"
+import React from 'react'
+import { ContextProvider } from './Context'
+import Cart from './Cart'
+import Photos from './Photos'
+import styled from 'styled-components'
 
 const FlexContainer = styled.div`
   display: flex;

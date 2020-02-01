@@ -1,4 +1,4 @@
-import React, * as react from 'react'
+import React, { useRef, useEffect, useState } from 'react'
 import useFetch from 'use-http'
 import { Pictures } from './types'
 type Props = {
@@ -8,7 +8,7 @@ type Context = {
   error: any
   loading: any
   allPhotos: Pictures[]
-  toggleFavorite: (id: string) => Pictures[]
+  toggleFavorite: (id: string) => void
   cartItems: Pictures[]
   addToCart: (newItem: Pictures) => void
   removeFromCart: (id: string) => void
@@ -18,8 +18,8 @@ type Context = {
 const Context = React.createContext({} as Context)
 
 function ContextProvider({ children }: Props) {
-  const [cartItems, setCartItems] = react.useState([])
-  const [allPhotos, setAllPhotos] = react.useState([])
+  const [cartItems, setCartItems] = useState([])
+  const [allPhotos, setAllPhotos] = useState([])
   const url = 'https://raw.githubusercontent.com'
   const [request, response] = useFetch(url)
 
@@ -30,8 +30,8 @@ function ContextProvider({ children }: Props) {
     if (response.ok) setAllPhotos(initialPhotos)
   }
   // componentDidMount
-  const mounted = react.useRef<HTMLElement | boolean>(false)
-  react.useEffect(() => {
+  const mounted = useRef<HTMLDivElement | boolean>(false)
+  useEffect(() => {
     if (mounted.current) return
     mounted.current = true
     initializePhotos()

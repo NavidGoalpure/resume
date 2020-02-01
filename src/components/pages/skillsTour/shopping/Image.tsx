@@ -1,13 +1,14 @@
-import React, { useContext } from "react"
-import { Context } from "./Context"
-import useHover from "./hooks/useHover"
-import styled from "styled-components"
-import { useSelector } from "react-redux"
+import React, { useContext } from 'react'
+import { Context } from './Context'
+import useHover from './hooks/useHover'
+import styled from 'styled-components'
+import { useSelector } from 'react-redux'
+import { Pictures } from './types'
 
 const Img = styled.img`
   width: 100%;
   height: 100%;
-  object-fit: ${props => (props.isUgly ? "contain" : "cover")};
+  object-fit: ${props => (props.isUgly ? 'contain' : 'cover')};
   &: hover {
     object-fit: none;
   }
@@ -22,7 +23,11 @@ const IconContainer = styled.div`
   transition: transform 300ms ease-in-out;
   }
  `
-function Image({ className, img }) {
+type props = {
+  className: object | string
+  img: Pictures
+}
+function Image({ className, img }: props) {
   const isUgly = useSelector(state => state.mode.isUglyMode)
   const [hovered, ref] = useHover()
   const { toggleFavorite, addToCart, cartItems, removeFromCart } = useContext(
