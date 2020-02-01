@@ -9,7 +9,8 @@ const SkillsTour = () => (
     <div className="content">
       <p>
         If you want to take a tour on my <strong>React Skills</strong>, click
-        this button.
+        this button. Note that if you're not familiar with React Coding, you
+        might find some of the features on this tour pointless.
       </p>
       <ul data-test="skills-tour-button" className="actions">
         <li>
