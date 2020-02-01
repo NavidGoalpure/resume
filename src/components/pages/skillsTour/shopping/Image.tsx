@@ -24,7 +24,7 @@ const IconContainer = styled.div`
   }
  `
 type props = {
-  className: object | string
+  className: React.CSSProperties | string
   img: Pictures
 }
 function Image({ className, img }: props) {
