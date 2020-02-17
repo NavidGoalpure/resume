@@ -71,7 +71,7 @@ export default {
       {
         skill: 'Context',
         link:
-          'https://github.com/NavidGoalpure/resume/blob/master/src/components/pages/skillsTour/shopping/Context.js',
+          'https://github.com/NavidGoalpure/resume/blob/master/src/components/pages/skillsTour/shopping/context.tsx',
         isVersed: true,
       },
       {
@@ -83,7 +83,7 @@ export default {
       {
         skill: 'Hook',
         link:
-          'https://github.com/NavidGoalpure/resume/blob/master/src/components/pages/skillsTour/shopping/hooks/useHover.js',
+          'https://github.com/NavidGoalpure/resume/blob/master/src/components/pages/skillsTour/shopping/hooks/useHover.tsx',
         isVersed: true,
       },
       {
@@ -109,6 +109,16 @@ export default {
         skill: 'Typescript',
         link:
           'https://github.com/NavidGoalpure/resume/blob/master/src/components/pages/skillsTour/shopping/CartItem.tsx',
+        isVersed: false,
+      },
+      {
+        skill: 'Jest',
+        link: '',
+        isVersed: false,
+      },
+      {
+        skill: 'Enzyme',
+        link: '',
         isVersed: false,
       },
     ],
