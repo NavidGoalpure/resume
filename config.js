@@ -21,7 +21,7 @@ module.exports = {
     {
       icon: 'fa-telegram',
       name: 'Telegram',
-      url: 'https://T.me/GreateStallman',
+      url: 'https://T.me/GreatStallman',
     },
     {
       icon: 'fa-rss',
