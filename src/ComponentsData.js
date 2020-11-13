@@ -6,14 +6,12 @@ import React from 'react'
 export default {
   employment: [
     {
-      duration: '2017-2020',
+      duration: '2020-2020',
       title: 'FRONT-END DEV',
-      companyName: 'Hivaland',
+      companyName: 'Asan Pardakht (eCommerce Section)',
       characters: [
-        'bloock.ir : One of the first blockchain startups in Iran to create a platform for renting books on the ethereum blockchain.',
-        'steemAce: A social network on Steem blockchain.',
-        'bitseen.com : An exchange for crypto currencies.',
-        'Technologies: ReactJs, GatsbyJs, NodeJs, GraphQL, Solidity.',
+        'AsanPardakht- with the Aap brand - is the largest Fintech in Iran, which decided to enter the field of eCommerce with the launch of the startup "Bazlia". Bazlia was supposed to take over a part of this market in Iran by connecting sellers to buyers, but in the end it was shut down in November 2020. The reason for stopping Bazlia was that AsanPardakht decided to stop investing in it and move on to more profitable projects',
+        'Technologies: ReactJs, NextJs, SSR, PWA.',
       ],
     },
     {
@@ -109,7 +107,12 @@ export default {
         skill: 'Typescript',
         link:
           'https://github.com/NavidGoalpure/resume/blob/master/src/components/pages/skillsTour/shopping/CartItem.tsx',
-        isVersed: false,
+        isVersed: true,
+      },
+      {
+        skill: 'SSR',
+        link: '',
+        isVersed: true,
       },
       {
         skill: 'Jest',
@@ -216,9 +219,9 @@ export default {
     {
       src: require('./assets/images/gallery/fulls/02.jpg'),
       // thumbnail: require('./assets/images/gallery/thumbs/02.jpg'),
-      url: 'http://bitseen.com',
-      title: 'BitSeen',
-      desc: 'A exchange for crypto currencies',
+      url: 'http://hezarchiz.com',
+      title: 'Hezarchiz',
+      desc: 'Persian interface for uniswap (P2P Crypto Exchange)',
     },
     {
       src: require('./assets/images/gallery/fulls/03.jpg'),
