@@ -31,5 +31,5 @@ module.exports = {
   ],
   emailId: 'navid.goalpure@gmail.com',
   phone: '+98-911-8686-115',
-  address: 'Tehran, Iran (open to relocation)',
+  address: 'Only Remote',
 }
