@@ -208,9 +208,9 @@ export default {
       src: require('./assets/images/gallery/fulls/01.jpg'),
 
       // thumbnail: require('./assets/images/gallery/thumbs/01.jpg'),
-      url: 'https://mrnewid.ir',
-      title: 'MrNewId',
-      desc: 'My blog about Blockchain',
+      url: 'https://hezarchiz.com',
+      title: 'Hezarchiz',
+      desc: 'Blockchain project aggrigator',
       full: true,
     },
     {
