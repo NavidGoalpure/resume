@@ -11,7 +11,7 @@ export default {
       companyName: 'Lions DS (remote)',
       characters: [
         'Implement variety of websites for an awesome marketing team in Canada',
-        'Technologies: ReactJs, NextJs, SSR, Stripe.',
+        'Technologies: ReactJs, NextJs, SSR, Stripe, Jamstack.',
       ],
     },
     {
