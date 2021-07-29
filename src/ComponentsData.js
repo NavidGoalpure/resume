@@ -6,6 +6,15 @@ import React from 'react'
 export default {
   employment: [
     {
+      duration: '2020-now',
+      title: 'FRONT-END DEV',
+      companyName: 'Lions DS (remote)',
+      characters: [
+        'Implement variety of websites for an awesome marketing team in Canada',
+        'Technologies: ReactJs, NextJs, SSR, Stripe.',
+      ],
+    },
+    {
       duration: '2020-2020',
       title: 'FRONT-END DEV',
       companyName: 'Asan Pardakht (eCommerce Section)',
@@ -19,7 +28,6 @@ export default {
       title: 'FRONT-END DEV',
       companyName: (
         <a href="https://sarayar.com/" target="_blank">
-          {' '}
           Sarayar
         </a>
       ),
