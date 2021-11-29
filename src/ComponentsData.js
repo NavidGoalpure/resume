@@ -19,7 +19,7 @@ export default {
       title: 'FRONT-END DEV',
       companyName: 'Asan Pardakht (eCommerce Section)',
       characters: [
-        'AsanPardakht- with the Aap brand - is the largest Fintech in Iran, which decided to enter the field of eCommerce with the launch of the startup "Bazlia". Bazlia was supposed to take over a part of this market in Iran by connecting sellers to buyers, but in the end it was shut down in November 2020. The reason for stopping Bazlia was that AsanPardakht decided to stop investing in it and move on to more profitable projects',
+        'AsanPardakht- with the Aap brand - is the largest Fintech in Iran (with more 11M active user), which decided to enter the field of eCommerce with the launch of the startup "Bazlia". Bazlia was supposed to take over a part of this market in Iran by connecting sellers to buyers, but in the end it was shut down in November 2020. The reason for stopping Bazlia was that AsanPardakht decided to stop investing in it and move on to more profitable projects',
         'Technologies: ReactJs, NextJs, SSR, PWA.',
       ],
     },
@@ -63,18 +63,6 @@ export default {
   skills: {
     reactSkills: [
       {
-        skill: 'Functional Component',
-        link:
-          'https://github.com/NavidGoalpure/SteemAceUi/blob/master/src/modules/%E2%80%8C%E2%80%8C%E2%80%8CBottomNavigation.jsx',
-        isVersed: true,
-      },
-
-      {
-        skill: 'Class Component',
-        link: '',
-        isVersed: true,
-      },
-      {
         skill: 'Context',
         link:
           'https://github.com/NavidGoalpure/resume/blob/master/src/components/pages/skillsTour/shopping/context.tsx',
@@ -86,24 +74,7 @@ export default {
           'https://github.com/NavidGoalpure/resume/blob/master/src/state/ReduxWrapper.js',
         isVersed: true,
       },
-      {
-        skill: 'Hook',
-        link:
-          'https://github.com/NavidGoalpure/resume/blob/master/src/components/pages/skillsTour/shopping/hooks/useHover.tsx',
-        isVersed: true,
-      },
-      {
-        skill: 'HOC',
-        link:
-          'https://github.com/NavidGoalpure/SteemAceUi/blob/master/src/pages/PostsForVote/voteMutation.jsx',
-        isVersed: true,
-      },
-      {
-        skill: 'RenerProps',
-        link:
-          'https://github.com/NavidGoalpure/resume/blob/4e99528d4432db62a3a80fd5116cfc278101dd0d/src/components/Layout.js',
-        isVersed: true,
-      },
+
       {
         skill: 'CustomeHook',
         link:
@@ -124,13 +95,20 @@ export default {
       },
       {
         skill: 'Jest',
-        link: '',
+        link:
+          'https://github.com/NavidGoalpure/lightmag/blob/master/libs/ui/src/lib/Elements/Dropdown/Dropdown.test.tsx',
         isVersed: false,
       },
       {
-        skill: 'Enzyme',
-        link: '',
-        isVersed: false,
+        skill: 'React-testing-library',
+        link:
+          'https://github.com/NavidGoalpure/lightmag/blob/master/libs/ui/src/lib/Elements/RadioButton/RadioButton.stories.tsx',
+        isVersed: true,
+      },
+      {
+        skill: 'NX',
+        link: 'https://github.com/NavidGoalpure/lightmag',
+        isVersed: true,
       },
     ],
 
@@ -202,11 +180,7 @@ export default {
         link: 'https://www.nardun.ir',
         isVersed: false,
       },
-      {
-        skill: 'Nodejs',
-        link: 'https://github.com/NavidGoalpure/SteemAceApi',
-        isVersed: false,
-      },
+
       {
         skill: 'Linux (Clinet)',
         link: '',
@@ -221,15 +195,16 @@ export default {
       // thumbnail: require('./assets/images/gallery/thumbs/01.jpg'),
       url: 'https://hezarchiz.com',
       title: 'Hezarchiz',
-      desc: 'Blockchain project aggrigator',
+      desc: 'Iranian blockchain project aggrigator',
       full: true,
     },
     {
       src: require('./assets/images/gallery/fulls/02.jpg'),
       // thumbnail: require('./assets/images/gallery/thumbs/02.jpg'),
-      url: 'http://hezarchiz.com',
-      title: 'Hezarchiz',
-      desc: 'Persian interface for uniswap (P2P Crypto Exchange)',
+      url: 'https://runiswap.com/#/swap',
+      title: 'Runiswap',
+      desc:
+        'Persian interface for uniswap (only open if you have Web3 Tools like Geth or Metamask)',
     },
     {
       src: require('./assets/images/gallery/fulls/03.jpg'),
@@ -241,9 +216,16 @@ export default {
     {
       src: require('./assets/images/gallery/fulls/04.jpg'),
       // thumbnail: require('./assets/images/gallery/thumbs/03.jpg'),
-      url: 'https://www.sarayar.com',
-      title: 'Sarayar',
-      desc: 'A airbnb for Iran',
+      url: 'https://www.morsid.com',
+      title: 'Morsid',
+      desc: 'A platform to set meeting with Marketing experts',
+    },
+    {
+      src: require('./assets/images/gallery/fulls/05.jpg'),
+      // thumbnail: require('./assets/images/gallery/thumbs/03.jpg'),
+      url: 'https://tw.enk.io/',
+      title: 'Twenkio',
+      desc: 'A tweeter bot for like and follow',
     },
   ],
   tourSteps: [
