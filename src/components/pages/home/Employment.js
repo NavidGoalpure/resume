@@ -38,10 +38,12 @@ function Employment() {
       </header>
       <div className="content">
         <p>
-          I have worked on these projects. In some of them I was the{' '}
-          <strong>founder </strong>or <strong>co-founder</strong> of a startup
-          and in others I worked as an <strong>employee</strong>.
-        </p>{' '}
+          I have worked on these projects. In some of them, I was the{' '}
+          <strong>founder</strong> or
+          <strong>co-founder</strong> of a startup and in others, I worked as an{' '}
+          <strong>employee</strong>.
+        </p>
+
         {content}
       </div>
     </section>

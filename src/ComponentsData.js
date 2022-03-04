@@ -10,7 +10,7 @@ export default {
       title: 'FRONT-END DEV',
       companyName: 'Lions DS (remote)',
       characters: [
-        'Implement variety of websites for an awesome marketing team in Canada',
+        'Implement a variety of websites for an awesome marketing team in Canada',
         'Technologies: ReactJs, NextJs, SSR, Stripe, Jamstack.',
       ],
     },
@@ -19,7 +19,7 @@ export default {
       title: 'FRONT-END DEV',
       companyName: 'Asan Pardakht (eCommerce Section)',
       characters: [
-        'AsanPardakht- with the Aap brand - is the largest Fintech in Iran (with more 11M active user), which decided to enter the field of eCommerce with the launch of the startup "Bazlia". Bazlia was supposed to take over a part of this market in Iran by connecting sellers to buyers, but in the end it was shut down in November 2020. The reason for stopping Bazlia was that AsanPardakht decided to stop investing in it and move on to more profitable projects',
+        'AsanPardakht- with the AAP brand - is the largest Fintech in Iran (with more than 11M active users), which decided to enter the field of eCommerce with the launch of the startup "Bazlia". Bazlia was supposed to take over a part of this market in Iran by connecting sellers to buyers, but in the end, it was shut down in November 2020. The reason for stopping Bazlia was that AsanPardakht decided to stop investing in it and move on to more profitable projects.',
         'Technologies: ReactJs, NextJs, SSR, PWA.',
       ],
     },
@@ -27,7 +27,7 @@ export default {
       duration: '2016- 2017',
       title: 'FRONT-END DEV',
       companyName: (
-        <a href="https://sarayar.com/" target="_blank">
+        <a href="https://sarayar.com/" target="_blank" rel="noreferrer">
           Sarayar
         </a>
       ),
@@ -44,7 +44,7 @@ export default {
       companyName: 'ninisu',
       characters: [
         'An Android app for new mothers (rated +4.5 in Cafe Bazaar).',
-        'Failure cause: Lack of fund and workforce.',
+        'Failure cause: Lack of funds and workforce.',
         'Technologies: Django+Nginx, Java for Android.',
       ],
     },

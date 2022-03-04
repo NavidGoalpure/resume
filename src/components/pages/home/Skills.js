@@ -37,8 +37,8 @@ const Title = styled.h3`
 `
 
 function drawLi(object) {
-  const skills = config.skills[object].map(skill => (
-    <li className="icon">
+  const skills = config.skills[object].map((skill, i) => (
+    <li className="icon" key={i}>
       <i
         className="fa fa-star"
         style={skill.isVersed ? iconVersedStyle : iconNormalStyle}
@@ -61,10 +61,10 @@ const MySkills = () => (
     </header>
     <div className="content">
       <p>
-        Hint: The <strong>Yellow star</strong> means being expert in the field.
-        The <strong> White star</strong> means be used in some case but i am not
-        experted.Click each one you want to see the related code on my{' '}
-        <strong>Githab</strong>.
+        Hint: The <strong>Yellow star</strong> means being an expert in the
+        field. The <strong>White star</strong>
+        means be used in some cases but I am not an expert. Click each one you
+        want to see the related code on my <strong>Github</strong>.
       </p>
       <Section>
         <header>
