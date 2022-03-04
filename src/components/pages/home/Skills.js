@@ -62,13 +62,13 @@ const MySkills = () => (
     <div className="content">
       <p>
         Hint: The <strong>Yellow star</strong> means being an expert in the
-        field. The <strong>White star</strong>
-        means be used in some cases but I am not an expert. Click each one you
-        want to see the related code on my <strong>Github</strong>.
+        field. The <strong>White star</strong> means be used in some cases but I
+        am not an expert. Click each one you want to see the related code on my{' '}
+        <strong>Github</strong>.
       </p>
       <Section>
         <header>
-          <Title> React Realated </Title>{' '}
+          <Title> React Related </Title>{' '}
         </header>
         <div className="content">
           <ul className="feature-icons">{drawLi('reactSkills')}</ul>
@@ -77,7 +77,7 @@ const MySkills = () => (
 
       <Section>
         <header>
-          <Title> CSS Realated </Title>{' '}
+          <Title> CSS Related </Title>{' '}
         </header>
         <div className="content">
           <ul className="feature-icons">{drawLi('cssSkills')}</ul>
