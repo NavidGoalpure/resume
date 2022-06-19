@@ -216,16 +216,9 @@ export default {
     {
       src: require('./assets/images/gallery/fulls/04.jpg'),
       // thumbnail: require('./assets/images/gallery/thumbs/03.jpg'),
-      url: 'https://www.morsid.com',
-      title: 'Morsid',
-      desc: 'A platform to set meeting with Marketing experts',
-    },
-    {
-      src: require('./assets/images/gallery/fulls/05.jpg'),
-      // thumbnail: require('./assets/images/gallery/thumbs/03.jpg'),
-      url: 'https://tw.enk.io/',
-      title: 'Twenkio',
-      desc: 'A tweeter bot for like and follow',
+      url: 'https://www.ytjobs.co',
+      title: 'YT Jobs',
+      desc: 'A platform for finding the best YouTube professionals',
     },
   ],
   tourSteps: [

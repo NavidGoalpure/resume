@@ -8,7 +8,7 @@ import {
   Skills,
   LiveSites,
   ContactForm,
-  SkillsTour,
+  // SkillsTour,
 } from '../components/pages/home'
 
 const IndexPage = () => (
@@ -17,7 +17,7 @@ const IndexPage = () => (
       <Hero />
       <Employment />
       <Skills />
-      <SkillsTour />
+      {/* <SkillsTour /> */}
       <LiveSites />
       <section>
         <ContactForm />
