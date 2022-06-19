@@ -97,17 +97,12 @@ export default {
         skill: 'Jest',
         link:
           'https://github.com/NavidGoalpure/lightmag/blob/master/libs/ui/src/lib/Elements/Dropdown/Dropdown.test.tsx',
-        isVersed: false,
+        isVersed: true,
       },
       {
         skill: 'React-testing-library',
         link:
           'https://github.com/NavidGoalpure/lightmag/blob/master/libs/ui/src/lib/Elements/RadioButton/RadioButton.stories.tsx',
-        isVersed: true,
-      },
-      {
-        skill: 'NX',
-        link: 'https://github.com/NavidGoalpure/lightmag',
         isVersed: true,
       },
     ],
@@ -136,11 +131,7 @@ export default {
         link: '',
         isVersed: true,
       },
-      {
-        skill: 'Bootstrap',
-        link: '',
-        isVersed: false,
-      },
+
       {
         skill: 'MaterialUi',
         link:
