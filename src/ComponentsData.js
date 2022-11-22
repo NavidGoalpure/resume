@@ -63,19 +63,6 @@ export default {
   skills: {
     reactSkills: [
       {
-        skill: 'Context',
-        link:
-          'https://github.com/NavidGoalpure/resume/blob/master/src/components/pages/skillsTour/shopping/context.tsx',
-        isVersed: true,
-      },
-      {
-        skill: 'Redux',
-        link:
-          'https://github.com/NavidGoalpure/resume/blob/master/src/state/ReduxWrapper.js',
-        isVersed: true,
-      },
-
-      {
         skill: 'CustomeHook',
         link:
           'https://github.com/NavidGoalpure/resume/blob/master/src/state/ReduxWrapper.js',
@@ -115,12 +102,6 @@ export default {
         isVersed: true,
       },
       {
-        skill: 'Emotion',
-        link:
-          'https://github.com/NavidGoalpure/futureWizardz/blob/master/src/components/ProjectCard.jsx',
-        isVersed: true,
-      },
-      {
         skill: 'Tailwind',
         link:
           'https://github.com/NavidGoalpure/futureWizardz/blob/master/src/components/AboutSub.jsx',
@@ -132,19 +113,6 @@ export default {
         isVersed: true,
       },
 
-      {
-        skill: 'MaterialUi',
-        link:
-          'https://github.com/NavidGoalpure/SteemAceUi/blob/master/src/modules/PostCards/PostCard.jsx',
-        isVersed: true,
-      },
-
-      {
-        skill: 'Postcss',
-        link:
-          'https://github.com/NavidGoalpure/mrNewid/blob/master/src/components/Article/Headline.js',
-        isVersed: false,
-      },
       {
         skill: 'SASS,SCSS',
         link:
@@ -164,6 +132,12 @@ export default {
         skill: 'GraphQL',
         link:
           'https://github.com/NavidGoalpure/SteemAceUi/blob/master/src/queries/feedsQuery.js',
+        isVersed: true,
+      },
+      {
+        skill: 'groq',
+        // link:
+        //   'https://github.com/NavidGoalpure/SteemAceUi/blob/master/src/queries/feedsQuery.js',
         isVersed: true,
       },
       {
