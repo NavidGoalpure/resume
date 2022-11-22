@@ -151,6 +151,11 @@ export default {
         link: '',
         isVersed: true,
       },
+      {
+        skill: 'sanity (Headless CMS)',
+        link: '',
+        isVersed: true,
+      },
     ],
   },
   img_set_1: [
