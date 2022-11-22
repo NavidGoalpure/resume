@@ -63,13 +63,6 @@ export default {
   skills: {
     reactSkills: [
       {
-        skill: 'CustomeHook',
-        link:
-          'https://github.com/NavidGoalpure/resume/blob/master/src/state/ReduxWrapper.js',
-        isVersed: true,
-      },
-
-      {
         skill: 'Typescript',
         link:
           'https://github.com/NavidGoalpure/resume/blob/master/src/components/pages/skillsTour/shopping/CartItem.tsx',
@@ -135,7 +128,7 @@ export default {
         isVersed: true,
       },
       {
-        skill: 'groq',
+        skill: 'GROQ',
         // link:
         //   'https://github.com/NavidGoalpure/SteemAceUi/blob/master/src/queries/feedsQuery.js',
         isVersed: true,
