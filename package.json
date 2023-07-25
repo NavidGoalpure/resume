@@ -7,8 +7,8 @@
     "url": "git+https://github.com/NavidGoalpure/resume.git"
   },
   "author": {
-    "name": "Navid Goalpure",
-    "email": "navid.goalpure@gmail.com"
+    "name": "Jasper Goalpure",
+    "email": "jasper.goalpure@gmail.com"
   },
   "dependencies": {
     "gatsby": "^2.4.3",

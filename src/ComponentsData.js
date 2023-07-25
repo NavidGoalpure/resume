@@ -149,13 +149,13 @@ export default {
     //   desc: 'Iranian blockchain project aggrigator',
     //   full: true,
     // },
-    {
-      src: require('./assets/images/gallery/fulls/03.jpg'),
-      // thumbnail: require('./assets/images/gallery/thumbs/03.jpg'),
-      url: 'https://www.nardun.ir',
-      title: 'Nardun',
-      desc: 'A collection of questions for conversation',
-    },
+    // {
+    //   src: require('./assets/images/gallery/fulls/03.jpg'),
+    //   // thumbnail: require('./assets/images/gallery/thumbs/03.jpg'),
+    //   url: 'https://www.nardun.ir',
+    //   title: 'Nardun',
+    //   desc: 'A collection of questions for conversation',
+    // },
   ],
   tourSteps: [
     {

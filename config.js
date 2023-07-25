@@ -1,6 +1,6 @@
 module.exports = {
-  siteTitle: 'Navid Goalpure Resume', // <title>
-  manifestName: 'Navid Resume',
+  siteTitle: 'Jasper Goalpure Resume', // <title>
+  manifestName: 'Jasper Resume',
   manifestShortName: 'Resume', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#126401',
@@ -8,7 +8,7 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/Resume/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Navid Goalpure',
+  heading: 'Jasper Goalpure',
   subHeading: 'Senior Front-end Web Developer Mid-level Backend Developer  ',
   // social
   socialLinks: [
@@ -23,7 +23,7 @@ module.exports = {
       url: 'https://T.me/GreatStallman',
     },
   ],
-  emailId: 'navid.goalpure@gmail.com',
+  emailId: 'Jasper.Goalpure@Gmail.com',
   phone: '[AU] 042-252-7249',
   address: 'Australia / Sydney',
 }

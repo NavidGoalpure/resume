@@ -13,7 +13,7 @@ exports[`Index renders correctly 1`] = `
       >
         <header>
           <h1>
-            Navid Goalpure
+            Jasper Goalpure
           </h1>
           <p>
             Senior Front-end Web Developer. Mid-level Backend developer  
@@ -72,7 +72,7 @@ exports[`Index renders correctly 1`] = `
             <br />
             I can make you sure, if I get the opportunity to work in such a company, I will greatly appreciate this opportunity.
             <br />
-            Navid Goalpure
+            Jasper Goalpure
           </p>
           <span
             className="image main"
@@ -414,9 +414,9 @@ exports[`Index renders correctly 1`] = `
                 Email
               </h3>
               <a
-                href="mailto:navid.goalpure@gmail.com"
+                href="mailto:jasper.goalpure@gmail.com"
               >
-                navid.goalpure@gmail.com
+                jasper.goalpure@gmail.com
               </a>
             </li>
             <li>
