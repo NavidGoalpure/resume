@@ -9,8 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/Resume/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Navid Goalpure',
-  subHeading:
-    'Senior Front-end Web Developer Part time Blockchain evangelist  ',
+  subHeading: 'Senior Front-end Web Developer Mid-level Backend Developer  ',
   // social
   socialLinks: [
     {
@@ -23,13 +22,8 @@ module.exports = {
       name: 'Telegram',
       url: 'https://T.me/GreatStallman',
     },
-    {
-      icon: 'fa-rss',
-      name: 'Virgool',
-      url: 'https://virgool.io/@navid.goalpure',
-    },
   ],
   emailId: 'navid.goalpure@gmail.com',
-  phone: '+98-911-8686-115',
-  address: 'Only Remote',
+  phone: '[AU] 042-252-7249',
+  address: 'Australia / Sydney',
 }

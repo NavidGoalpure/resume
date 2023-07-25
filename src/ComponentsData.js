@@ -1,62 +1,35 @@
 // gatsby can be crash if this data hold in config.js then manipulate them
 // then i hold this data in this file
 
-import React from 'react'
-
 export default {
   employment: [
     {
-      duration: '2020-now',
+      duration: '2021-2023',
       title: 'FRONT-END DEV',
       companyName: 'Lions DS (remote)',
       characters: [
         'Implement a variety of websites for an awesome marketing team in Canada',
-        'Technologies: ReactJs, NextJs, SSR, Stripe, Jamstack.',
+        'Skills: ReactJs, NextJs, SSR, Stripe, Jamstack, Apollo GraphQL · Front-end Engineering · Agile Software Development · Cross-browser Compatibility . A/B Testing · Web Technologies . Analytical Skills · Software Development · Responsive Web Design',
+        "Achivements: Drove the successful development and launch of YTJobs.co as the go-to job board for YouTube experts, leveraging my expertise as a frontend developer. Built the website from the ground up, employing innovative frontend frameworks and ensuring an intuitive user experience. Resulted in a remarkable achievement as the website now dominates the market. As the key team member, I played a pivotal role in spearheading the establishment of an agile team and cultivating a dynamic agile culture for YTJobs. Through my help, we successfully drove the team's performance, optimized project delivery, and fostered a culture of continuous improvement, ultimately propelling YTJobs to unprecedented success.",
       ],
     },
     {
-      duration: '2020-2020',
-      title: 'FRONT-END DEV',
+      duration: '2020-2021',
+      title: 'Fullstack DEV',
       companyName: 'Asan Pardakht (eCommerce Section)',
       characters: [
         'AsanPardakht- with the AAP brand - is the largest Fintech in Iran (with more than 11M active users), which decided to enter the field of eCommerce with the launch of the startup "Bazlia". Bazlia was supposed to take over a part of this market in Iran by connecting sellers to buyers, but in the end, it was shut down in November 2020. The reason for stopping Bazlia was that AsanPardakht decided to stop investing in it and move on to more profitable projects.',
-        'Technologies: ReactJs, NextJs, SSR, PWA.',
+        'Skills: ReactJs, NextJs, SSR, PWA, Jira · Agile Software Development · Cross-browser Compatibility · Redux.js',
+        'Achivement: Leveraged TypeScript to revamp critical sections of existing code and created new features for the PWA version of the  platform, resulting in improved user experience, functionality, and code stability. Worked collaboratively with the team to ensure seamless project management and  faster feature development.',
       ],
     },
     {
-      duration: '2016- 2017',
-      title: 'FRONT-END DEV',
-      companyName: (
-        <a href="https://sarayar.com/" target="_blank" rel="noreferrer">
-          Sarayar
-        </a>
-      ),
+      duration: '2017- 2020',
+      title: 'Web Developer',
+      companyName: 'Hivaland',
       characters: [
-        'A well-known platform, modeled on AirBnB in Iran.',
-        'Develop & refactor already established website (sarayar.com).',
-        'Technologies: ReactJs, Bootstrap, Restful-API, Webpack.',
-      ],
-    },
-
-    {
-      duration: '2013-2016',
-      title: 'FOUNDER',
-      companyName: 'ninisu',
-      characters: [
-        'An Android app for new mothers (rated +4.5 in Cafe Bazaar).',
-        'Failure cause: Lack of funds and workforce.',
-        'Technologies: Django+Nginx, Java for Android.',
-      ],
-    },
-
-    {
-      duration: '2012-2013',
-      title: 'CO-FOUNDER',
-      companyName: 'dbjobs',
-      characters: [
-        'A complete failure! But learned how NOT to handle a startup.',
-        'My first startup experience, after years of employment.',
-        'Goal: A national job bank informational website.',
+        'In the Hivaland I worked on various projects as a web developer.',
+        'Skills: Apollo GraphQL · Web Content Accessibility Guidelines (WCAG) · Cross-browser Compatibility · Web Technologies · HTML · Back-End Web Development · Software Development · Responsive Web Design · Cascading Style Sheets (CSS) · HTML5',
       ],
     },
   ],
@@ -153,35 +126,35 @@ export default {
   },
   img_set_1: [
     {
-      src: require('./assets/images/gallery/fulls/01.jpg'),
-
-      // thumbnail: require('./assets/images/gallery/thumbs/01.jpg'),
-      url: 'https://hezarchiz.com',
-      title: 'Hezarchiz',
-      desc: 'Iranian blockchain project aggrigator',
-      full: true,
-    },
-    {
       src: require('./assets/images/gallery/fulls/02.jpg'),
-      // thumbnail: require('./assets/images/gallery/thumbs/02.jpg'),
-      url: 'https://runiswap.com/#/swap',
-      title: 'Runiswap',
-      desc:
-        'Persian interface for uniswap (only open if you have Web3 Tools like Geth or Metamask)',
-    },
-    {
-      src: require('./assets/images/gallery/fulls/03.jpg'),
       // thumbnail: require('./assets/images/gallery/thumbs/03.jpg'),
-      url: 'https://www.nardun.ir',
-      title: 'Nardun',
-      desc: 'A collection of questions for conversation',
+      url: 'https://www.marabox.com/en',
+      title: 'Marabox',
+      desc: 'Build a Bridge To Australia ',
     },
+
     {
       src: require('./assets/images/gallery/fulls/04.jpg'),
       // thumbnail: require('./assets/images/gallery/thumbs/03.jpg'),
       url: 'https://www.ytjobs.co',
       title: 'YT Jobs',
       desc: 'A platform for finding the best YouTube professionals',
+    },
+    // {
+    //   src: require('./assets/images/gallery/fulls/01.jpg'),
+
+    //   // thumbnail: require('./assets/images/gallery/thumbs/01.jpg'),
+    //   url: 'https://hezarchiz.com',
+    //   title: 'Hezarchiz',
+    //   desc: 'Iranian blockchain project aggrigator',
+    //   full: true,
+    // },
+    {
+      src: require('./assets/images/gallery/fulls/03.jpg'),
+      // thumbnail: require('./assets/images/gallery/thumbs/03.jpg'),
+      url: 'https://www.nardun.ir',
+      title: 'Nardun',
+      desc: 'A collection of questions for conversation',
     },
   ],
   tourSteps: [

@@ -16,7 +16,7 @@ exports[`Index renders correctly 1`] = `
             Navid Goalpure
           </h1>
           <p>
-            Seniur Front-end Web Developer. Part time Blockchain evangelist  
+            Senior Front-end Web Developer. Mid-level Backend developer  
           </p>
           <ul
             className="actions"

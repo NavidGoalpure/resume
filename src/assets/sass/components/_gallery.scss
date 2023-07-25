@@ -17,7 +17,7 @@
   &:after {
     content: '';
     position: absolute;
-    background: #6d7e63b0;
+    background: #6d7e63db;
     width: 110%;
     height: 150%;
     padding: 1em;
@@ -92,7 +92,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    border: 16px solid _palette(border);
+    border: 6px solid _palette(border);
     transition: all 0.2s;
     will-change: border;
   }
