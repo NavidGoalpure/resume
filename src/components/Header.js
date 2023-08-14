@@ -1,12 +1,12 @@
-import React from 'react';
-import Scroll from './Scroll';
-import config from '../../config';
+import React from 'react'
+import Scroll from './Scroll'
+import config from '../../config'
 
 export default function Header() {
   return (
     <header>
-      <h1 style={{textAlign: 'center'}}>{config.heading}</h1>
-      <p>{config.subHeading}</p>
+      <h1 style={{ textAlign: 'center' }}>{config.heading}</h1>
+      <p style={{ textAlign: 'center' }}>{config.subHeading}</p>
       <ul className="actions">
         <li>
           <Scroll type="id" element="first">
@@ -17,5 +17,5 @@ export default function Header() {
         </li>
       </ul>
     </header>
-  );
+  )
 }

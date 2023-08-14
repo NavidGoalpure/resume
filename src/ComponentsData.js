@@ -4,6 +4,18 @@
 export default {
   employment: [
     {
+      duration: '2021-current',
+      title: 'Fullstack Web Developer',
+      companyName: 'Marabox.com.au',
+      characters: [
+        'As a Full-Stack Web Developer, I had the exciting opportunity to spearhead the development of Marabox.com.au, an innovative Australian startup. Marabox is a pioneering platform that aims to simplify the immigration process to Australia by connecting individuals with specialized expertise, such as immigration agents and agencies. My role involved building the website from scratch, incorporating essential features like multi-language support and multi-theme options to enhance user experience and accessibility.',
+        'For the frontend, I utilized Next.js, a powerful and scalable framework, to create a responsive and dynamic user interface. Leveraging my proficiency in JavaScript, HTML, and CSS, I crafted an intuitive and visually appealing design that engaged users and facilitated seamless navigation throughout the platform.',
+        'On the backend, I implemented Nodejs , Sanity as a CMS (Content Management System), ensuring content organization and management were efficient and straightforward. My emphasis on scalability and clean code architecture meant that future developers could effortlessly continue my work, making the project highly sustainable and adaptable to future developments.',
+        'Collaborating closely with the Marabox team, I effectively translated their vision into a fully functional platform that now serves as a valuable resource for individuals aspiring to immigrate to Australia. I am proud to have contributed my technical expertise to a venture with such a meaningful impact, and I look forward to exploring new opportunities where I can leverage my skills to create innovative solutions.',
+        'Skills: Reactjs, Nextjs, Nodejs, aws lambda, Google Analytics',
+      ],
+    },
+    {
       duration: '2021-2023',
       title: 'FRONT-END DEV',
       companyName: 'Lions DS (remote)',
@@ -23,22 +35,31 @@ export default {
         'Achivement: Leveraged TypeScript to revamp critical sections of existing code and created new features for the PWA version of the  platform, resulting in improved user experience, functionality, and code stability. Worked collaboratively with the team to ensure seamless project management and  faster feature development.',
       ],
     },
-    {
-      duration: '2017- 2020',
-      title: 'Web Developer',
-      companyName: 'Hivaland',
-      characters: [
-        'In the Hivaland I worked on various projects as a web developer.',
-        'Skills: Apollo GraphQL · Web Content Accessibility Guidelines (WCAG) · Cross-browser Compatibility · Web Technologies · HTML · Back-End Web Development · Software Development · Responsive Web Design · Cascading Style Sheets (CSS) · HTML5',
-      ],
-    },
   ],
   skills: {
     reactSkills: [
       {
+        skill: 'React',
+        link: 'https://github.com/NavidGoalpure/visabox',
+        isVersed: true,
+      },
+      {
+        skill: 'NextJs',
+        link: 'https://github.com/NavidGoalpure/visabox',
+        isVersed: true,
+      },
+      {
+        skill: 'Nodejs',
+        link: 'https://github.com/NavidGoalpure/visabox',
+        isVersed: true,
+      },
+      {
+        skill: 'AWS',
+        isVersed: false,
+      },
+      {
         skill: 'Typescript',
-        link:
-          'https://github.com/NavidGoalpure/resume/blob/master/src/components/pages/skillsTour/shopping/CartItem.tsx',
+        link: 'https://github.com/NavidGoalpure/visabox',
         isVersed: true,
       },
       {
@@ -102,21 +123,10 @@ export default {
       },
       {
         skill: 'GROQ',
-        // link:
-        //   'https://github.com/NavidGoalpure/SteemAceUi/blob/master/src/queries/feedsQuery.js',
+        link: 'https://github.com/NavidGoalpure/visabox',
         isVersed: true,
-      },
-      {
-        skill: 'PWA',
-        link: 'https://www.nardun.ir',
-        isVersed: false,
       },
 
-      {
-        skill: 'Linux (Clinet)',
-        link: '',
-        isVersed: true,
-      },
       {
         skill: 'sanity (Headless CMS)',
         link: '',

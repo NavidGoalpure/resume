@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/Resume/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Jasper Goalpure',
-  subHeading: 'Senior Front-end Web Developer Mid-level Backend Developer  ',
+  subHeading: 'Fullstack Web Developer ',
   // social
   socialLinks: [
     {
